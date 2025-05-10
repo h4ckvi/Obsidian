@@ -1,1 +1,0 @@
-Esto es una nota de prueba, segundo stage
