@@ -1,0 +1,6 @@
+{
+  "folder": "000 - DIARIO",
+  "template": "999 - PLANTILLAS/tp.notas_diarias",
+  "autorun": true,
+  "format": "DD MMMM YYYY"
+}

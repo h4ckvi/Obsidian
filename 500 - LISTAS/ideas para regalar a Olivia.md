@@ -1,0 +1,12 @@
+- Libros:
+	- Hasta que te caigas bien
+	- Querida yo, tenemos que hablar
+- Bata de estar por casa bonita 
+- Pendientes de acero inoxidable o titanio
+- Colonia (olor sexy): Suelen ser de color negro, rojo…
+- Caja de música de One Piece: “We are”
+- Maquillaje de NYX:
+	- Pintalabios
+- Escribirla 100 razones por las que la amo
+- Figurita de algo que le guste hecha de plastilina
+

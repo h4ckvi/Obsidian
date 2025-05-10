@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "quickadd:runQuickAdd",
+    "insert-template",
+    "google-calendar:open-google-calendar-week-view",
+    "google-calendar:create-google-calendar-event"
+  ]
+}

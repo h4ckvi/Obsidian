@@ -1,0 +1,371 @@
+---
+aliases:
+  - RegEx
+tags:
+  - Programación
+categoria:
+  - Manipulación de datos
+subcategoria: 
+nivel:
+  - principiante
+---
+
+# ¿Qué son las expresiones regulares?
+
+Las expresiones regulares (regex) son una herramienta poderosa para la manipulación de texto. Permiten buscar, extraer y modificar cadenas de texto de manera eficiente.
+
+---
+
+** ¿Qué son las Expresiones Regulares?**
+
+Las expresiones regulares son patrones utilizados para buscar combinaciones de caracteres en cadenas de texto. Se utilizan en la mayoría de los lenguajes de programación y en herramientas de búsqueda de texto avanzadas.
+
+En Python, las regex se manejan con el módulo `re`.
+
+```python
+import re  # Importamos el módulo de expresiones regulares
+```
+
+
+## ¿Por qué se usa r delante de una regex?
+
+La r convierte la cadena en “raw string” (cadena sin procesar), evitando que Python interprete \ como caracteres de escape.
+
+```python
+# Sin r
+print("\n")  # Salto de línea
+
+# Con r
+print(r"\n")  # Imprime \n literalmente
+```
+
+==Siempre usa r"" al definir regex en Python.==
+
+# 1. ** Métodos de re en Python**
+
+
+Python proporciona varios métodos para trabajar con regex:
+
+• **re.search**(patron, texto): Busca la primera coincidencia en el texto y devuelve un objeto Match o None si no encuentra nada.
+
+• **re.findall**(patron, texto): Devuelve una lista con todas las coincidencias.
+
+• **re.match**(patron, texto): Verifica si la cadena **empieza** con el patrón dado.
+
+• **re.fullmatch**(patron, texto): Comprueba si toda la cadena coincide con el patrón.
+
+• **re.sub**(patron, reemplazo, texto): Reemplaza coincidencias en el texto.
+
+• **re.split**(patron, texto): Divide el texto usando el patrón como separador.
+
+```python
+import re
+
+texto = "El número de teléfono es 123-456-789"
+patron = r"\d{3}-\d{3}-\d{3}"
+
+resultado = re.search(patron, texto)
+
+if resultado:
+    print("Teléfono encontrado:", resultado.group())  # 123-456-789
+```
+
+---
+
+## 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`
+
+Cuando usamos `re.search()` o `re.match()`, obtenemos un objeto `Match`. Este objeto nos permite obtener información detallada sobre la coincidencia encontrada.
+
+### group()
+Devuelve la coincidencia exacta encontrada en la búsqueda.
+
+```python
+import re
+
+texto = "Mi número es 4567"
+patron = r"\d+"
+
+match = re.search(patron, texto)
+
+if match:
+    print(match.group())  # "4567"
+```
+
+### start()
+
+Devuelve la posición **donde comienza** la coincidencia en la cadena.
+```python
+match = re.search(r"\d+", "Mi número es 4567")
+
+if match:
+    print(match.start())  # 12
+```
+En "Mi número es 4567", la primera coincidencia (4567) empieza en el índice 12 (contando desde 0).
+
+### end()
+
+Devuelve la posición **donde termina** la coincidencia (justo después del último carácter coincidente).
+
+```python
+match = re.search(r"\d+", "Mi número es 4567")
+
+if match:
+    print(match.end())  # 16
+```
+
+La cadena "4567" termina en el índice 16 (excluyendo este índice).
+
+### span()
+
+Devuelve una tupla (start, end), que indica el rango donde se encuentra la coincidencia.
+
+```python
+match = re.search(r"\d+", "Mi número es 4567")
+
+if match:
+    print(match.span())  # (12, 16)
+```
+
+El número 4567 empieza en 12 y termina en 16.
+
+
+
+
+
+# 2. ** re.finditer(): Iterar sobre coincidencias**
+
+Este método devuelve un iterador con todas las coincidencias en el texto.
+
+```python
+texto = "abc 123 def 456 ghi 789"
+patron = r"\d+"
+
+for match in re.finditer(patron, texto):
+    print(match.group())  # Imprime 123, 456, 789
+```
+
+```python
+import re
+
+texto = "Códigos: 123, 456 y 789"
+patron = r"\d+"
+
+for match in re.finditer(patron, texto):
+    print(f"Coincidencia: {match.group()}, Posición: {match.span()}")
+```
+
+	Coincidencia: 123, Posición: (9, 12)
+	Coincidencia: 456, Posición: (14, 17)
+	Coincidencia: 789, Posición: (20, 23)
+  
+# 3. ** Diferenciar entre mayúsculas y minúsculas**
+
+  
+
+Por defecto, las búsquedas en re distinguen entre mayúsculas y minúsculas. Para hacerlas insensibles a esto, usamos re.IGNORECASE o re.I.
+
+```python
+texto = "Hola Mundo, hola Python"
+patron = r"hola"
+
+coincidencias = re.findall(patron, texto, re.IGNORECASE)
+print(coincidencias)  # ['Hola', 'hola']
+```
+
+# 4. ** Reemplazar texto con re.sub()**
+
+  
+
+Usamos re.sub() para reemplazar coincidencias en un texto.
+
+```python
+texto = "El color favorito es el color azul"
+nuevo_texto = re.sub(r"color", "tono", texto)
+
+print(nuevo_texto)  # "El tono favorito es el tono azul"
+```
+
+# 5. ** Metacaracteres en Regex**
+
+Los metacaracteres son caracteres especiales en regex. Algunos de los más usados son:
+
+• . → Cualquier carácter excepto nueva línea.
+
+• ^ → Inicio de una cadena.
+
+• $ → Fin de una cadena.
+
+• * → Cero o más repeticiones.
+
+• + → Una o más repeticiones.
+
+• ? → Cero o una repetición.
+
+• {n} → Exactamente n repeticiones.
+
+• {n,m} → Entre n y m repeticiones.
+
+• \ → Escapa caracteres especiales.
+
+```python
+import re
+texto = "Hola 123"
+patron = r"\d+"  # Coincide con números
+
+print(re.findall(patron, texto))  # ['123']
+```
+
+# 6. ** ¿Cómo usar \ (barra invertida) en regex?**
+
+  
+
+La barra invertida \ tiene dos funciones:
+
+1. **Escapar metacaracteres**: Si queremos buscar un . en texto, usamos \. porque . es un metacarácter.
+
+2. **Usar secuencias especiales**:
+
+• \d → Dígitos (0-9)
+
+• \w → Caracteres alfanuméricos
+
+• \s → Espacios en blanco
+
+
+```python
+import re
+texto = "El precio es $100.50"
+patron = r"\$[\d\.]+"  # Busca un símbolo $ seguido de números y punto
+
+print(re.findall(patron, texto))  # ['$100.50']
+```
+
+# 7. ** Cómo buscar dígitos con \d**
+
+  
+
+Para encontrar números en un texto:
+
+```python
+texto = "Hay 3 gatos y 5 perros"
+patron = r"\d+"  # Encuentra dígitos
+
+print(re.findall(patron, texto))  # ['3', '5']
+```
+
+# 8. ** Coincidencias con caracteres alfanuméricos (\w)**
+
+  
+
+Busca letras, números y guiones bajos.
+
+```python
+texto = "Python3_rocks!"
+patron = r"\w+"  # Encuentra palabras alfanuméricas
+
+print(re.findall(patron, texto))  # ['Python3_rocks']
+```
+
+# 9. ** Espacios en blanco en Python (\s)**
+
+  
+
+Para encontrar espacios, tabulaciones o saltos de línea.
+
+```python
+texto = "Hola\tMundo\nPython"
+patron = r"\s"
+
+print(re.findall(patron, texto))  # ['\t', '\n']
+```
+
+# 10. ** Validación de cadenas en Python**
+
+  
+
+Podemos usar re.fullmatch() para validar una cadena completa.
+
+```python
+texto = "Python123"
+patron = r"[A-Za-z]+\d+"  # Letras seguidas de números
+
+print(bool(re.fullmatch(patron, texto)))  # True
+```
+
+# 11. ** Validación del final de una cadena ($)**
+
+  
+
+Ejemplo: comprobar si un correo termina en .com.
+
+```python
+correo = "usuario@gmail.com"
+patron = r".+@.+\.com$"
+
+print(bool(re.search(patron, correo)))  # True
+```
+
+
+# 12. ** Coincidencias con opciones (|)**
+
+  
+
+El | permite buscar varias opciones.
+
+```python
+texto = "Hola Mundo, Hello World"
+patron = r"Hola|Hello"
+
+print(re.findall(patron, texto))  # ['Hola', 'Hello']
+```
+
+# 13. ** Cuantificadores en Regex**
+
+• * → Cero o más veces.
+
+• + → Una o más veces.
+
+• ? → Cero o una vez.
+
+```python
+texto = "hellooooo"
+patron = r"hello+"
+
+print(re.search(patron, texto))  # Coincide con "hellooooo"
+```
+
+
+# 14. ** Contando ocurrencias en Regex**
+
+```python
+texto = "python python python"
+patron = r"python"
+
+print(len(re.findall(patron, texto)))  # 3
+```
+
+# 15. ** Sets y corchetes en Regex ([ ])**
+
+  
+
+Para buscar caracteres específicos.
+
+```python
+texto = "gato, gato, perro"
+patron = r"[gp]ato"
+
+print(re.findall(patron, texto))  # ['gato', 'gato']
+```
+
+# 16. ** Coincidencia negada ([^ ])**
+
+  
+
+Busca caracteres que **no** están en el set.
+
+```python
+texto = "123 ABC xyz"
+patron = r"[^A-Z]"
+
+print(re.findall(patron, texto))  # ['1', '2', '3', ' ', 'x', 'y', 'z']
+```

@@ -1,0 +1,392 @@
+{
+  "main": {
+    "id": "c747beacf7051f16",
+    "type": "split",
+    "children": [
+      {
+        "id": "a52c982d65194422",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "760fa226fe0c381c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "000 - Conceptos de python"
+            }
+          },
+          {
+            "id": "2b7641265e30bb44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "000 - Conceptos de python"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8d706b9f1df8f20",
+    "type": "split",
+    "children": [
+      {
+        "id": "0affab0b8ccf4fca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "042e89daa2e95cbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "6292b1e48bf7c6c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "647c4a19ff3c1309",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "modificar path:\"200 - CONOCIMIENTO/Programación/Python\"  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.5
+  },
+  "right": {
+    "id": "2d76a521fe260ba9",
+    "type": "split",
+    "children": [
+      {
+        "id": "04d7e822f0a29fb7",
+        "type": "tabs",
+        "dimension": 51.696832579185525,
+        "children": [
+          {
+            "id": "57ffcae3b9b0307a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de set (conjuntos).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Python - Métodos de set (conjuntos)"
+            }
+          },
+          {
+            "id": "9eb7d0423fd90a53",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": "tema"
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "f0334710b21aa16c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "14e84d8cf2f510b4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "f1d1f553f4e20612",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4b6ff2d974d85e36",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Operadores de comparación.md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para Operadores de comparación"
+            }
+          },
+          {
+            "id": "0213252e1c80aef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 - PLANTILLAS/tp.markdown.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tp.markdown"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "3fa66bc75790d2bf",
+        "type": "tabs",
+        "dimension": 48.30316742081448,
+        "children": [
+          {
+            "id": "d99257d8f3239677",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8386321430666047,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de 000 - Conceptos de python"
+            }
+          },
+          {
+            "id": "eb72f82610527142",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000 - DIARIO/26 October 2024.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 26 October 2024"
+            }
+          },
+          {
+            "id": "025cd4f717c04cc1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "000 - DIARIO/26 October 2024.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 26 October 2024"
+            }
+          },
+          {
+            "id": "20e6fe2a3156e34e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": true,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": true,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": true,
+      "audio-recorder:Iniciar/Detener la grabación": true,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "2b7641265e30bb44",
+  "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de set (conjuntos).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "999 - PLANTILLAS/tp.markdown.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
+    "200 - CONOCIMIENTO/Programación/MOC - Learning python.md",
+    "HOME.md",
+    "000 - Anexos/Pasted image 20250104111234.png",
+    "000 - Anexos/Pasted image 20250104111222.png",
+    "000 - Anexos/Pasted image 20241123175747.png",
+    "000 - Anexos/Pasted image 20241123173907.png",
+    "000 - Anexos/Linea de vida Álvaro 2023-07-28.png",
+    "000 - Anexos/Pasted image 20240819185125.jpg",
+    "000 - Anexos/Pasted image 20240504163433.png",
+    "500 - LISTAS/caprichos 2.md",
+    "MOC - Proyecto Marca Personal 2.md",
+    "200 - CONOCIMIENTO/Programación/MOC - Learning python 2.md",
+    "200 - CONOCIMIENTO/Programación/MOC - Git y Github 2.md",
+    "200 - CONOCIMIENTO/Programación/Visual Studio Code (trucos) 2.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Importar módulos o estructuras de carpetas.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Otras funciones (filter, map, reduce).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Funciones creadas por el usuario.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios del curos (II).md",
+    "200 - CONOCIMIENTO/Lectura/Libros 2/Tus zonas erróneas - Guía para combatir las causas de la infelicidad.md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Métodos de strings (cadenas).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios del curso (I).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Fechas y tiempos (datetime).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Logs y debugging (logging).md",
+    "200 - CONOCIMIENTO/Programación/Python 2/Bibliotecas de python",
+    "200 - CONOCIMIENTO/Programación/Python 2/Proyectos con python",
+    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python",
+    "200 - CONOCIMIENTO/Lectura/Libros 2/Anexos/Pasted image 20230818163217.png",
+    "200 - CONOCIMIENTO/Lectura/Libros 2/Anexos/Pasted image 20230818163052.png",
+    "200 - CONOCIMIENTO/Lectura/Libros 2/Anexos/Pasted image 20230818163036.png",
+    "200 - CONOCIMIENTO/Lectura/Libros 2/Anexos",
+    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python",
+    "200 - CONOCIMIENTO/Programación/Python 2",
+    "200 - CONOCIMIENTO/Programación/Git y Github 2",
+    "200 - CONOCIMIENTO/Ciberseguridad/Sistemas operativos/Linux 2/Ejercicios prácticos/Bandit/Anexos/Anexos",
+    "200 - CONOCIMIENTO/Ciberseguridad/Sistemas operativos/Linux 2/Ejercicios prácticos/Bandit/Anexos",
+    "200 - CONOCIMIENTO/Ciberseguridad/Sistemas operativos/Linux 2/Conocimientos Linux/Anexos/Anexos",
+    "Untitled.canvas",
+    "Sin título.canvas",
+    "PKM/Sin título.canvas",
+    "Pizarra/Untitled.canvas"
+  ]
+}

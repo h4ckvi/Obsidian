@@ -1,0 +1,44 @@
+/* Título 1 - Estilo de botón con sombra extendido al ancho completo */
+.markdown-preview-view h1 {
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    background-color: #3498DB; /* Color azul grisáceo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas más redondeadas */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: block;
+    width: 100%; /* Ancho completo */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo común para títulos 2, 3, 4 y 5 */
+.markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5 {
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas más redondeadas */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: block;
+    width: 100%; /* Ancho completo */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.85em; /* Tamaño de letra más pequeño */
+}
+
+/* Colores específicos para cada título */
+.markdown-preview-view h2 {
+    background-color: #c76d1f; /* Azul grisáceo más oscuro */
+}
+
+.markdown-preview-view h3 {
+    background-color: #914f16; /* Azul grisáceo original */
+}
+
+.markdown-preview-view h4 {
+    background-color: #57300e; /* Azul grisáceo más claro */
+}
+
+.markdown-preview-view h5 {
+    background-color: #2c1807; /* Azul grisáceo muy claro */
+}

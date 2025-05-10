@@ -1,0 +1,11 @@
+.markdown-preview-view .mermaid {
+	border: 1px solid #ff000000;
+	padding: 0px 40px 0px 0px;
+}
+
+.markdown-preview-view .mermaid svg {
+	max-height: 350px;
+	max-width: 100%;
+	border: 1px solid #23ff0600;
+	padding: 0px 20px 0px 0px;
+}

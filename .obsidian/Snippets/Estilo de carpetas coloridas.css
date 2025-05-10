@@ -1,0 +1,53 @@
+/* Folder Background Colors - Main Folders */        
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+2) > .nav-folder-title {
+    background-color: rgba(0, 0, 255, 1); /* Azul */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+3) > .nav-folder-title {
+    background-color: rgba(255, 0, 0, 1); /* Rojo */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+
+/* Subfolder Colors */
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+2) .nav-folder > .nav-folder-title {
+    background-color: rgba(0, 0, 255, 0.7); /* Azul Claro */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+3) .nav-folder > .nav-folder-title {
+    background-color: rgba(255, 0, 0, 0.7); /* Rojo Claro */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+
+/* Sub-subfolder Colors */
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+2) .nav-folder .nav-folder > .nav-folder-title {
+    background-color: rgba(0, 0, 255, 0.4); /* Azul más Claro */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+.nav-folder.mod-root > .nav-folder-children > .nav-folder:nth-child(9n+3) .nav-folder .nav-folder > .nav-folder-title {
+    background-color: rgba(255, 0, 0, 0.4); /* Rojo más Claro */
+    border-radius: 5px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}

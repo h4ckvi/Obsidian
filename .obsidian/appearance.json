@@ -1,0 +1,23 @@
+{
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "ITS Theme",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "ddashboard",
+    "anupuccin extended colors",
+    "Cards",
+    "Multi columns CSS",
+    "ajuste del mermaid",
+    "Justify text"
+  ],
+  "nativeMenus": true,
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "Cascadia Code",
+  "showViewHeader": true,
+  "showRibbon": true
+}

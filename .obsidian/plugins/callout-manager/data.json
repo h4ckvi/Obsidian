@@ -1,0 +1,117 @@
+{
+  "callouts": {
+    "custom": [
+      "script",
+      "recuerda",
+      "pro",
+      "contra",
+      "task",
+      "cmd"
+    ],
+    "settings": {
+      "script": [
+        {
+          "changes": {
+            "icon": "lucide-braces",
+            "color": "118, 187, 64"
+          }
+        }
+      ],
+      "recuerda": [
+        {
+          "changes": {
+            "icon": "lucide-brain",
+            "color": "210, 98, 254"
+          }
+        }
+      ],
+      "pro": [
+        {
+          "changes": {
+            "icon": "lucide-thumbs-up"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "55, 200, 91"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "55, 200, 91"
+          }
+        }
+      ],
+      "contra": [
+        {
+          "changes": {
+            "icon": "lucide-thumbs-down"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "253, 63, 63"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "253, 63, 63"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "color": "26, 156, 255"
+          }
+        }
+      ],
+      "task": [
+        {
+          "changes": {
+            "icon": "lucide-list-todo"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "102, 255, 112"
+          }
+        }
+      ],
+      "cmd": [
+        {
+          "changes": {
+            "icon": "lucide-keyboard",
+            "color": "255, 255, 255"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

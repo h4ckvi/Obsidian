@@ -1,0 +1,4 @@
+---
+tipo: captura
+---
+

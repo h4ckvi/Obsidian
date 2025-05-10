@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "09b870c89abda80c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba9d044600058dd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52409538b07e69de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALVARO/HOME.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0732633d6a164d4e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "68654276f4a3c5e1",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "0f81df557d7c68a2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "46a9c68a162cf241",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "09ae12a35332bc37",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0,
+    "pinned": true
+  },
+  "right": {
+    "id": "eddddd40ebe0a45b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "27e4624a7b8da18d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "ALVARO/HOME.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c5ab25a9b7b32637",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "ALVARO/HOME.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4ad7e7826945a77e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "ALVARO/HOME.md"
+          }
+        }
+      },
+      {
+        "id": "8289dfcce220a5d1",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "52409538b07e69de",
+  "lastOpenFiles": [
+    "Manual plugins/Conceptos/YAML.md",
+    "Manual plugins/Tracker/Manual TRACKER.md",
+    "Manual plugins/Conceptos/metadatos.md",
+    "OLI/Hola.md"
+  ]
+}
