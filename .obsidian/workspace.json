@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "000 - Conceptos de python"
             }
-          },
-          {
-            "id": "fa71ea2cdaf58ccb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nota de prueba.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nota de prueba"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Nota de prueba.md"
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md"
               },
               "icon": "lucide-info",
-              "title": "Propiedades de los archivos para Nota de prueba"
+              "title": "Propiedades de los archivos para 000 - Conceptos de python"
             }
           }
         ],
@@ -214,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Nota de prueba.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,7 +217,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Nota de prueba"
+              "title": "Gráfico de 000 - Conceptos de python"
             }
           },
           {
@@ -312,10 +287,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa71ea2cdaf58ccb",
+  "active": "760fa226fe0c381c",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "Nota de prueba.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "999 - PLANTILLAS/tp.markdown.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de set (conjuntos).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
