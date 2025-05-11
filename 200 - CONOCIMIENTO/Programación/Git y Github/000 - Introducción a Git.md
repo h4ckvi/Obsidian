@@ -1,17 +1,9 @@
 
 
-
---- start-multi-column: ID_drv7
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-
 No debemos confundir **Git y GitHub**. 
 
 Git es independiente de GitHub, pero GitHub depende de Git 
 
---- column-break ---
 
 > [!NOTE]- Enlaces de interés
 > - [Web](https://git-scm.com/) oficial Git (Documentación, descarga...)
@@ -28,12 +20,6 @@ Git es independiente de GitHub, pero GitHub depende de Git
 > - [GitHub Actions](https://github.com/features/actions)
 > - Practica con los [retos de programación](https://retosdeprogramacion.com/) de la comunidad
 > - Y por último, aquí tienes un Gif que he creado con los 30 comandos más utilizados de Git
-
-
---- end-multi-column
-
-
-
 
 # Git
 

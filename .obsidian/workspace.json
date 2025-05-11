@@ -1,19 +1,45 @@
 {
   "main": {
-    "id": "9ff9369ba691abab",
+    "id": "c747beacf7051f16",
     "type": "split",
     "children": [
       {
-        "id": "b928cafa32ac3a78",
+        "id": "a52c982d65194422",
         "type": "tabs",
         "children": [
           {
-            "id": "431b9b49fb782556",
+            "id": "760fa226fe0c381c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "000 - Conceptos de python"
+            }
+          },
+          {
+            "id": "64ae3e159a1567fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
+                "file": "HOME.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,29 +54,30 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git cheatsheet"
+              "title": "HOME"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d419210f98cbb404",
+    "id": "e8d706b9f1df8f20",
     "type": "split",
     "children": [
       {
-        "id": "9cfdaf77f1af8129",
+        "id": "0affab0b8ccf4fca",
         "type": "tabs",
         "children": [
           {
-            "id": "261e402de597e673",
+            "id": "042e89daa2e95cbd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -58,12 +85,22 @@
             }
           },
           {
-            "id": "ebfe949483c60903",
+            "id": "6292b1e48bf7c6c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "647c4a19ff3c1309",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"paginas\"]",
+                "query": "modificar path:\"200 - CONOCIMIENTO/Programación/Python\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,119 +110,76 @@
               "icon": "lucide-search",
               "title": "Buscar"
             }
-          },
-          {
-            "id": "b8a434d3667dabc6",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Marcadores"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 340.5080032348633
   },
   "right": {
-    "id": "ef2bdf1e7f733ee0",
+    "id": "2d76a521fe260ba9",
     "type": "split",
     "children": [
       {
-        "id": "45dfeb26b742907e",
+        "id": "04d7e822f0a29fb7",
         "type": "tabs",
-        "dimension": 49.89429175475687,
+        "dimension": 55.27306967984934,
         "children": [
           {
-            "id": "58fd3e7d48c95ec6",
+            "id": "57ffcae3b9b0307a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de set (conjuntos).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 000 - Conceptos de python"
+              "title": "Esquema de Python - Métodos de set (conjuntos)"
             }
           },
           {
-            "id": "2b0800742664d7f9",
+            "id": "9eb7d0423fd90a53",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "all-properties",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": "tema"
               },
-              "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 000 - Conceptos de python"
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
             }
           },
           {
-            "id": "a8b913370351dcca",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Enlaces salientes de Git cheatsheet"
-            }
-          },
-          {
-            "id": "22f4b596f5ed2d77",
+            "id": "f0334710b21aa16c",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": false
               },
               "icon": "lucide-tags",
               "title": "Etiquetas"
             }
           },
           {
-            "id": "1f5ba3b6f993d0c2",
+            "id": "14e84d8cf2f510b4",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "Todas las propiedades"
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "2d0128a6fcf85028",
-        "type": "tabs",
-        "dimension": 50.10570824524313,
-        "children": [
+          },
           {
-            "id": "5ea19be8f79e476a",
+            "id": "f1d1f553f4e20612",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -195,7 +189,97 @@
             }
           },
           {
-            "id": "3392210d83ba8326",
+            "id": "4b6ff2d974d85e36",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "HOME.md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para HOME"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "3fa66bc75790d2bf",
+        "type": "tabs",
+        "dimension": 44.72693032015066,
+        "children": [
+          {
+            "id": "d99257d8f3239677",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8386321430666047,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de 000 - Conceptos de python"
+            }
+          },
+          {
+            "id": "eb72f82610527142",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000 - DIARIO/26 October 2024.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 26 October 2024"
+            }
+          },
+          {
+            "id": "025cd4f717c04cc1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "000 - DIARIO/26 October 2024.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 26 October 2024"
+            }
+          },
+          {
+            "id": "20e6fe2a3156e34e",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -205,34 +289,36 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:Abrir el importador de Markdown": false,
-      "audio-recorder:Iniciar/Detener la grabación": false,
-      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
+      "canvas:Crear nuevo lienzo": true,
       "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
+      "templates:Insertar plantilla": true,
       "command-palette:Abrir paleta de comandos": false,
-      "templater-obsidian:Templater": false,
-      "callout-manager:Insert Callout": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "markdown-importer:Abrir el importador de Markdown": true,
+      "audio-recorder:Iniciar/Detener la grabación": true,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
       "obsidian-git:Open Git source control": false
     }
   },
-<<<<<<< HEAD
-  "active": "042e89daa2e95cbd",
+  "active": "64ae3e159a1567fc",
   "lastOpenFiles": [
-    "Nota de prueba editada.md",
+    "200 - CONOCIMIENTO/Programación/Git y Github/000 - Introducción a Git.md",
+    "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
+    "200 - CONOCIMIENTO/Programación/Visual Studio Code (trucos).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "Nota de prueba editada.md",
     "Nota de prueba.md",
     "999 - PLANTILLAS/tp.markdown.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de set (conjuntos).md",
@@ -261,9 +347,6 @@
     "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
     "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Expresiones regulares (RegEx).md",
     "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios del curos (II).md",
-    "200 - CONOCIMIENTO/Lectura/Libros 2/Tus zonas erróneas - Guía para combatir las causas de la infelicidad.md",
-    "200 - CONOCIMIENTO/Programación/Python 2/Conceptos de python/Python - Métodos de strings (cadenas).md",
-    "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python/Ejercicios del curso (I).md",
     "200 - CONOCIMIENTO/Programación/Python 2/Bibliotecas de python",
     "200 - CONOCIMIENTO/Programación/Python 2/Proyectos con python",
     "200 - CONOCIMIENTO/Programación/Python 2/Ejercicios prácticos con python",
@@ -281,55 +364,5 @@
     "Sin título.canvas",
     "PKM/Sin título.canvas",
     "Pizarra/Untitled.canvas"
-=======
-  "active": "431b9b49fb782556",
-  "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "HOME.md",
-    "Esto es una. nueva nota.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
-    "200 - CONOCIMIENTO/Programación/MOC - Git y Github.md",
-    "Anexos/git-cheat-sheet-education.pdf",
-    "Anexos/git-cheat-sheet-education 2.pdf",
-    "Anexos/Recording 20250430082105.m4a",
-    "Anexos/Recording 20250430082104.m4a",
-    "Anexos",
-    "999 - PLANTILLAS/Prompts GPT/biografía.gpt.md",
-    "999 - PLANTILLAS/tp.youtube.md",
-    "999 - PLANTILLAS/tp.vocabulario_ingles.md",
-    "999 - PLANTILLAS/tp.programación_python.md",
-    "999 - PLANTILLAS/tp.procesar.md",
-    "999 - PLANTILLAS/tp.notas_diarias.md",
-    "999 - PLANTILLAS/tp.markdown.md",
-    "999 - PLANTILLAS/tp.linkedin.md",
-    "999 - PLANTILLAS/tp.libros.md",
-    "999 - PLANTILLAS/tp.inglés.md",
-    "999 - PLANTILLAS/tp.generar_indice.md",
-    "999 - PLANTILLAS/Prompts GPT",
-    "999 - PLANTILLAS",
-    "500 - LISTAS/necesidades.md",
-    "500 - LISTAS/ideas para regalar a Olivia.md",
-    "500 - LISTAS/caprichos.md",
-    "500 - LISTAS",
-    "300 - PROYECTOS/LinkedIn/Posts/Tu segundo cerebro.md",
-    "300 - PROYECTOS/LinkedIn/Posts/The one thing.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Task Batching.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Regla de pareto.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Simplificar al máximo.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Recomendación de recursos.md",
-    "300 - PROYECTOS/LinkedIn/Posts",
-    "300 - PROYECTOS/Youtube/Listado de vídeos",
-    "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",
-    "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20230818163217.png",
-    "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20230818163052.png",
-    "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20230818163036.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511213113.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511212745.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511212724.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511212717.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511212421.png",
-    "200 - CONOCIMIENTO/Inglés/Tools/Anexos/Pasted image 20230511212406.png"
->>>>>>> 7387dd95daaac66ac2f44ffa0986b7cd4fb44efb
   ]
 }
