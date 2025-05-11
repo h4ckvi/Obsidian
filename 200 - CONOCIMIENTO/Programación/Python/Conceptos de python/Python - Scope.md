@@ -53,5 +53,10 @@ print("global:", x)
 | x = "en cierre" | x en outer() | Local a outer()           | Se cambia a "nonlocal" desde inner() |
 | nonlocal x      | x en inner() | Se refiere a x de outer() | Modificada a "nonlocal"              |
 
+**🧠 En resumen:**
 
-
+| **Palabra clave** | **Afecta a…**                          |
+| ----------------- | -------------------------------------- |
+| local             | Solo a la función donde se define      |
+| nonlocal          | A la función externa más cercana       |
+| global            | A variables fuera de cualquier función |
