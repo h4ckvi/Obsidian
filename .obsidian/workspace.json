@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git cheatsheet"
+              "title": "000 - Conceptos de python"
             }
           }
         ]
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Git cheatsheet"
+              "title": "Enlaces salientes de 000 - Conceptos de python"
             }
           },
           {
@@ -230,6 +230,7 @@
   },
   "active": "431b9b49fb782556",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
     "HOME.md",
@@ -263,7 +264,6 @@
     "300 - PROYECTOS/LinkedIn/Posts/The one thing.md",
     "300 - PROYECTOS/LinkedIn/Posts/Task Batching.md",
     "300 - PROYECTOS/LinkedIn/Posts/Regla de pareto.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Simplificar al máximo.md",
     "300 - PROYECTOS/LinkedIn/Posts",
     "300 - PROYECTOS/Youtube/Listado de vídeos",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",
