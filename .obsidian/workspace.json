@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "000 - Conceptos de python"
+              "title": "Python - Scope"
             }
           }
         ]
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 000 - Conceptos de python"
+              "title": "Enlaces salientes de Python - Scope"
             }
           },
           {
@@ -230,8 +230,11 @@
   },
   "active": "b63bef5c50c60e0e",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+    "999 - PLANTILLAS/tp.notas_diarias.md",
+    "999 - PLANTILLAS/tp.procesar.md",
+    "999 - PLANTILLAS/tp.inglés.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
@@ -248,12 +251,9 @@
     "999 - PLANTILLAS/tp.youtube.md",
     "999 - PLANTILLAS/tp.vocabulario_ingles.md",
     "999 - PLANTILLAS/tp.programación_python.md",
-    "999 - PLANTILLAS/tp.procesar.md",
-    "999 - PLANTILLAS/tp.notas_diarias.md",
     "999 - PLANTILLAS/tp.markdown.md",
     "999 - PLANTILLAS/tp.linkedin.md",
     "999 - PLANTILLAS/tp.libros.md",
-    "999 - PLANTILLAS/tp.inglés.md",
     "999 - PLANTILLAS/tp.generar_indice.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
