@@ -11,10 +11,24 @@
             "id": "431b9b49fb782556",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Git cheatsheet"
             }
           }
         ]
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 287.5
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -125,11 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de Git cheatsheet"
             }
           },
           {
@@ -213,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3392210d83ba8326",
+  "active": "431b9b49fb782556",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "HOME.md",
