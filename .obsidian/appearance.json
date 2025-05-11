@@ -13,7 +13,7 @@
     "Justify text"
   ],
   "nativeMenus": true,
-  "translucency": false,
+  "translucency": true,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
   "textFontFamily": "",
