@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b928cafa32ac3a78",
+        "id": "9f921d868711871a",
         "type": "tabs",
         "children": [
           {
-            "id": "431b9b49fb782556",
+            "id": "b63bef5c50c60e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -228,14 +228,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "431b9b49fb782556",
+  "active": "b63bef5c50c60e0e",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Sin título.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
     "HOME.md",
     "Esto es una. nueva nota.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
     "200 - CONOCIMIENTO/Programación/MOC - Git y Github.md",
     "Anexos/git-cheat-sheet-education.pdf",
@@ -263,7 +264,6 @@
     "300 - PROYECTOS/LinkedIn/Posts/Tu segundo cerebro.md",
     "300 - PROYECTOS/LinkedIn/Posts/The one thing.md",
     "300 - PROYECTOS/LinkedIn/Posts/Task Batching.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Regla de pareto.md",
     "300 - PROYECTOS/LinkedIn/Posts",
     "300 - PROYECTOS/Youtube/Listado de vídeos",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",
