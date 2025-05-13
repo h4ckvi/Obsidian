@@ -15,7 +15,7 @@ Ver [[MOC correspondiente]]
 
 # 📅 Introducción a las Fechas en Python
 
-En esta lección, aprenderás a manejar **fechas y horas** utilizando el módulo nativo `datetime` en Python. Conocerás cómo obtener la fecha y hora actual, así como cómo crear fechas específicas, lo que te permitirá manipular datos temporales de manera sencilla y eficiente.
+Una fecha en Python no es un tipo de dato propio, pero podemos importar un módulo llamado datetime para trabajar con fechas como objetos fecha.
 
 ## 1. Trabajando con `datetime`
 

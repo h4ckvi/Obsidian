@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Scope"
+              "title": "Python - Fechas y tiempos (datetime)"
             }
           }
         ]
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Python - Scope"
+              "title": "Enlaces salientes de Python - Fechas y tiempos (datetime)"
             }
           },
           {
