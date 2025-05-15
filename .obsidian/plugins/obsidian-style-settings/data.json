@@ -287,6 +287,19 @@
   "ITS@@hr-center-vertically": false,
   "ITS@@metadata-value-background": false,
   "ITS@@metadata-title-no-icon": false,
-  "ITS@@bttn@@dark": "#3C6096",
-  "ITS@@scrollbar-thumb-bg@@dark": "#ADADAD"
+  "ITS@@default-statblock": false,
+  "ITS@@breadcrumbs-block": false,
+  "ITS@@metabind-auto": false,
+  "ITS@@dataview-regular-table": false,
+  "ITS@@dataview-table-auto": false,
+  "ITS@@accent-color": false,
+  "ITS@@slrvb-b": false,
+  "ITS@@slrvb-g": false,
+  "ITS@@s-d": false,
+  "ITS@@t-d": false,
+  "ITS@@drwn": false,
+  "ITS@@nord": false,
+  "ITS@@mini": false,
+  "ITS@@notion": false,
+  "ITS@@its-d": false
 }

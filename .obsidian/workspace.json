@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Scope"
+              "title": "000 - Conceptos de python"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5040016174316
+    "width": 396.50400161743164
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Python - Scope"
+              "title": "Enlaces salientes de 000 - Conceptos de python"
             }
           },
           {
@@ -176,8 +176,7 @@
               "title": "Todas las propiedades"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "2d0128a6fcf85028",
@@ -209,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,9 +229,11 @@
   },
   "active": "431b9b49fb782556",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/MOC - Learning python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Operadores.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-    "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+    "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
     "HOME.md",
@@ -262,8 +263,6 @@
     "500 - LISTAS/caprichos.md",
     "500 - LISTAS",
     "300 - PROYECTOS/LinkedIn/Posts/Tu segundo cerebro.md",
-    "300 - PROYECTOS/LinkedIn/Posts/The one thing.md",
-    "300 - PROYECTOS/LinkedIn/Posts/Task Batching.md",
     "300 - PROYECTOS/LinkedIn/Posts",
     "300 - PROYECTOS/Youtube/Listado de vídeos",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",
