@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 000 - Conceptos de python"
+              "title": "Esquema de Python - Math"
             }
           },
           {
@@ -212,8 +212,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "2d0128a6fcf85028",

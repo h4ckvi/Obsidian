@@ -15,9 +15,13 @@ Ir a [[000 - Bibliotecas de python]]
 ---
 
 <!--INDICE-->
+# Índice
+
+- [[#1. Funciones “Math” built-in]]
+- [[#2. El módulo “Math”]]
 <!--/INDICE--> 
 
-# Funciones “Math” built-in
+# 1. Funciones “Math” built-in
 
 Python tiene un conjunto de funciones matemáticas incorporadas, incluyendo un extenso módulo matemático, que le permite realizar tareas matemáticas con números.
 
@@ -54,7 +58,7 @@ print(x)
 
 	64
 
-# El módulo “Math”
+# 2. El módulo “Math”
 
 Python también tiene un módulo incorporado llamado math, que amplía la lista de funciones matemáticas.
 
@@ -76,4 +80,29 @@ print(x)
 
 	8
 
-`math.ceil()` redondea un n
+`math.ceil()` redondea un número hacia arriba a su entero más cercano.
+
+`math.floor()` redondea un número hacia abajo a su enero más cercano, y devuelve el resultado.
+
+```python
+import math  
+  
+x = math.ceil(1.4)  
+y = math.floor(1.4)  
+  
+print(x) # returns 2  
+print(y) # returns 1
+```
+
+	2
+	1
+
+`math.pi()` constant devuelve el valor de pi.
+
+```python
+import math  
+  
+x = math.pi  
+  
+print(x)
+```
