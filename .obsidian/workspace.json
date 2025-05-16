@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b928cafa32ac3a78",
+        "id": "9f921d868711871a",
         "type": "tabs",
         "children": [
           {
-            "id": "431b9b49fb782556",
+            "id": "b63bef5c50c60e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "000 - Conceptos de python"
+              "title": "Python - Fechas y tiempos (datetime)"
+            }
+          },
+          {
+            "id": "cc29e16559edc487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python - Math"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.50400161743164
+    "width": 386.5
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -139,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 000 - Conceptos de python"
+              "title": "Enlaces salientes de Python - Fechas y tiempos (datetime)"
             }
           },
           {
@@ -175,8 +200,19 @@
               "icon": "lucide-archive",
               "title": "Todas las propiedades"
             }
+          },
+          {
+            "id": "09b17695eb0ba4bf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "2d0128a6fcf85028",
@@ -208,7 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,12 +263,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "431b9b49fb782556",
+  "active": "cc29e16559edc487",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/MOC - Learning python.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Operadores.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
+    "999 - PLANTILLAS/tp.notas_diarias.md",
+    "999 - PLANTILLAS/tp.procesar.md",
+    "999 - PLANTILLAS/tp.inglés.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
@@ -249,12 +288,9 @@
     "999 - PLANTILLAS/tp.youtube.md",
     "999 - PLANTILLAS/tp.vocabulario_ingles.md",
     "999 - PLANTILLAS/tp.programación_python.md",
-    "999 - PLANTILLAS/tp.procesar.md",
-    "999 - PLANTILLAS/tp.notas_diarias.md",
     "999 - PLANTILLAS/tp.markdown.md",
     "999 - PLANTILLAS/tp.linkedin.md",
     "999 - PLANTILLAS/tp.libros.md",
-    "999 - PLANTILLAS/tp.inglés.md",
     "999 - PLANTILLAS/tp.generar_indice.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
