@@ -8,6 +8,10 @@ subcategoria:
 nivel:
 ---
 
+JSON es una sintaxis para almacenar e intercambiar datos.
+
+JSON es texto, escrito con notación de objetos JavaScript.
+
 # **json.dump()**
 
 json.dump() es un método de la librería estándar json de Python que **convierte un objeto de Python en JSON y lo escribe en un archivo**. Se usa cuando necesitas almacenar datos estructurados en formato JSON en un archivo.
@@ -52,7 +56,11 @@ json_string = json.dumps(data, indent=4)
 print(json_string)
 ```
 
-# **json.load()**
+# Perse JSON - Convertir de JSON a Python
+
+Si tienes una cadena JSON, puedes parsearla usando el método `json.loads().`
+
+El resultado será un [[Python - Listas, Tuplas, Diccionarios, conjuntos#5. Diccionarios|diccionario de python]] 
 
 • **Carga** un JSON desde un archivo y lo convierte en un objeto de Python.
 
