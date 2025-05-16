@@ -56,3 +56,24 @@ print(x)
 
 # El módulo “Math”
 
+Python también tiene un módulo incorporado llamado math, que amplía la lista de funciones matemáticas.
+
+Para utilizarlo, debes importar el módulo math:
+
+```python
+import math
+```
+
+`math.sqrt()` devuelve la raíz cuadrada de un número.
+
+```python
+import math  
+  
+x = math.sqrt(64)  
+  
+print(x)
+```
+
+	8
+
+`math.ceil()` redondea un n
