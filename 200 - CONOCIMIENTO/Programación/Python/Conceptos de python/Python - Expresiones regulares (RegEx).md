@@ -130,6 +130,21 @@ Puede añadir indicadores al patrón cuando utilice expresiones regulares.
 
 Una secuencia especial es un \ seguido de uno de los caracteres de la lista siguiente, y tiene un significado especial:
 
+| **Secuencia** | **Qué hace**                         | **Ejemplo útil**               |
+| ------------- | ------------------------------------ | ------------------------------ |
+| \A            | Inicio **absoluto** del texto        | \Ahttps?://                    |
+| \Z            | Fin **absoluto** del texto           | \.txt\Z                        |
+| \b            | Límite de palabra                    | \bcat\b (palabra entera “cat”) |
+| \B            | No límite de palabra                 | \Bcat\B (“concatenate”)        |
+| (?=pat)       | **Look‑ahead** positivo (no consume) | \d(?=%) (dígito seguido de %)  |
+| (?!pat)       | Look‑ahead negativo                  | foo(?!bar)                     |
+| (?<=pat)      | **Look‑behind** positivo             | (?<=USD)\d+                    |
+| (?<!pat)      | Look‑behind negativo                 | (?\<!USD)\d+                    |
+
+# Sets
+
+Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un significado especial:
+
 | **Sintaxis** | **Significado**                      | **Coincide con…**             |
 | ------------ | ------------------------------------ | ----------------------------- |
 | [abc]        | a **o** b **o** c                    | cualquiera de esos caracteres |
@@ -142,34 +157,6 @@ Una secuencia especial es un \ seguido de uno de los caracteres de la lista sigu
 | \W           | [^A-Za-z0-9_]                        | no “word”                     |
 | \s           | [ \t\r\n\f\v]                        | espacio en blanco             |
 | \S           | [^ \t\r\n\f\v]                       | no blanco                     |
-
-| \A  | Returns a match if the specified characters are at the beginning of the string                                                                                                                               | "\AThe"                  |     |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | --- |
-| \b  | Returns a match where the specified characters are at the beginning or at the end of a word. (the "r" in the beginning is making sure that the string is being treated as a "raw string")                    | r\bain"<br/><br/>r"ain\b |     |
-| \B  | Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word. (the "r" in the beginning is making sure that the string is being treated as a "raw string") | r\bain"<br/><br/>r"ain\B                         |     |
-| \d  | Returns a match where the string contains digits (numbers from 0-9)                                                                                                                                          | "\d"                     |     |
-| \D  | Returns a match where the string DOES NOT contain digits                                                                                                                                                     | "\D"                     |     |
-| \s  | Returns a match where the string contains a white space character                                                                                                                                            | "\s"                     |     |
-| \S  | Returns a match where the string DOES NOT contain a white space character                                                                                                                                    | "\S"                     |     |
-| \w  | Returns a match where the string contains any word characters (characters from a to Z, digits from 0-9, and the underscore _ character)                                                                      | "\w"                     |     |
-| \W  | Returns a match where the string DOES NOT contain any word characters                                                                                                                                        | "\W"                     |     |
-| \Z  | Returns a match if the specified characters are at the end of the string                                                                                                                                     | "Spain\Z"                |     |
-
-# Sets
-
-Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un significado especial:
-
-| Set        | Description                                                                                                           |
-| ---------- | --------------------------------------------------------------------------------------------------------------------- |
-| [arn]      | Returns a match where one of the specified characters (a, r, or n) is present                                         |
-| [a-n]      | Returns a match for any lower case character, alphabetically between a and n                                          |
-| [^arn]     | Returns a match for any character EXCEPT a, r, and n                                                                  | 
-| [0123]     | Returns a match where any of the specified digits (0, 1, 2, or 3) are present                                         |
-| [0-9]      | Returns a match for any digit between 0 and 9                                                                         |
-| [0-5][0-9] | Returns a match for any two-digit numbers from 00 and 59                                                              |
-| [a-zA-Z]   | Returns a match for any character alphabetically between a and z, lower case OR upper case                            |
-| [+]        | In sets, +, *, ., \|, (), $,{} has no special meaning, so [+] means: return a match for any + character in the string |
-
 
 
 # 3.1. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`
