@@ -197,7 +197,7 @@ print(json.dumps(x))
 
 	{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
 
-## Formatear el resultado de un JSON para mejor legibilidad
+# Formatear el resultado de un JSON para mejor legibilidad
 
 El ejemplo anterior imprime una cadena JSON, pero no es muy fácil de leer, sin sangrías ni saltos de línea.
 
@@ -245,3 +245,53 @@ print(json.dumps(x, indent=4))
 	        }  
 	    ]  
 	}
+
+También puede definir los separadores, el valor por defecto es (", ", ": "), lo que significa utilizar una coma y un espacio para separar cada objeto, y dos puntos y un espacio para separar las claves de los valores:
+
+Utilice el parámetro `separators` para cambiar el separador predeterminado:
+
+```python
+import json
+
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# use . and a space to separate objects, and a space, a = and a space to separate keys from their values:
+print(json.dumps(x, indent=4, separators=(". ", " = ")))
+```
+
+	{  
+	    "name" = "John".  
+	    "age" = 30.  
+	    "married" = true.  
+	    "divorced" = false.  
+	    "children" = [  
+	        "Ann".  
+	        "Billy"  
+	    ].  
+	    "pets" = null.  
+	    "cars" = [  
+	        {  
+	            "model" = "BMW 230".  
+	            "mpg" = 27.5  
+	        }.  
+	        {  
+	            "model" = "Ford Edge".  
+	            "mpg" = 24.1  
+	        }  
+	    ]  
+	}
+
+# Ordenar el resultado
+
+`json.dumps()` tiene parámetros para ordenar las claves del resultado. Con el método `short_keys()` 
