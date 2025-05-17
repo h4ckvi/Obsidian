@@ -56,11 +56,7 @@ json_string = json.dumps(data, indent=4)
 print(json_string)
 ```
 
-# Perse JSON - Convertir de JSON a Python
-
-Si tienes una cadena JSON, puedes parsearla usando el método `json.loads().`
-
-El resultado será un [[Python - Listas, Tuplas, Diccionarios, conjuntos#5. Diccionarios|diccionario de python]] 
+# Cargar un JSON desde un archivo y convertirlo a objeto
 
 • **Carga** un JSON desde un archivo y lo convierte en un objeto de Python.
 
@@ -71,9 +67,14 @@ with open("datos.json", "r") as archivo:
 print(data_cargada)
 ```
 
-# **json.loads()**
+# Convertir de JSON a Python
+
+Si tienes una cadena JSON, puedes parsearla usando el método `json.loads().`
+
+El resultado será un [[Python - Listas, Tuplas, Diccionarios, conjuntos#5. Diccionarios|diccionario de python]] 
 
 • Similar a json.load(), pero en lugar de leer desde un archivo, **carga JSON desde una cadena**.
+
 ```python
 json_string = '{"nombre": "Álvaro", "edad": 27, "ciudad": "Madrid"}'
 data = json.loads(json_string)
