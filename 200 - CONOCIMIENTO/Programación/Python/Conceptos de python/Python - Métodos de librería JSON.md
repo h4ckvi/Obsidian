@@ -158,3 +158,90 @@ print(json.dumps(None))
 	false  
 	null
 
+# Tabla de equivalencias de objetos entre Python y JSON
+
+Al convertir de Python a JSON, los objetos Python se convierten en su equivalente JSON (JavaScript):
+
+| Python | JSON   |
+|--------|--------|
+| dict   | Object |
+| list   | Array  |
+| tuple  | Array  |
+| str    | String |
+| int    | Number |
+| float  | Number |
+| True   | true   |
+| False  | false  |
+| None   | null   |
+
+```python
+# Convierte un objeto Python que contiene todos los tipos de datos legales:
+
+import json  
+  
+x = {  
+  "name": "John",  
+  "age": 30,  
+  "married": True,  
+  "divorced": False,  
+  "children": ("Ann","Billy"),  
+  "pets": None,  
+  "cars": [  
+    {"model": "BMW 230", "mpg": 27.5},  
+    {"model": "Ford Edge", "mpg": 24.1}  
+  ]  
+}  
+  
+print(json.dumps(x))
+```
+
+	{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
+
+## Formatear el resultado de un JSON para mejor legibilidad
+
+El ejemplo anterior imprime una cadena JSON, pero no es muy fácil de leer, sin sangrías ni saltos de línea.
+
+El método `json.dumps()` tiene parámetros para facilitar la lectura del resultado, como `indent`:
+
+```python
+import json
+
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# use four indents to make it easier to read the result:
+print(json.dumps(x, indent=4))
+```
+
+	
+	{  
+	    "name": "John",  
+	    "age": 30,  
+	    "married": true,  
+	    "divorced": false,  
+	    "children": [  
+	        "Ann",  
+	        "Billy"  
+	    ],  
+	    "pets": null,  
+	    "cars": [  
+	        {  
+	            "model": "BMW 230",  
+	            "mpg": 27.5  
+	        },  
+	        {  
+	            "model": "Ford Edge",  
+	            "mpg": 24.1  
+	        }  
+	    ]  
+	}
