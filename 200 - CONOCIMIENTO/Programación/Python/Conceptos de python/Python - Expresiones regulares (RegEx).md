@@ -16,26 +16,30 @@ nivel: []
 - [[#2. ¿Qué son las expresiones regulares?]]
   - [[#2.1. ¿Por qué se usa r delante de una regex?]]
 - [[#3. Funciones de RegEx en Python]]
-  - [[#3.1. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`]]
-    - [[#3.1.1. group()]]
-    - [[#3.1.2. start()]]
-    - [[#3.1.3. end()]]
-    - [[#3.1.4. span()]]
-- [[#4. re.finditer(): Iterar sobre coincidencias]]
-- [[#5. Diferenciar entre mayúsculas y minúsculas]]
-- [[#6. Reemplazar texto con re.sub()]]
-- [[#7. Metacaracteres en Regex]]
-- [[#8. ¿Cómo usar \ (barra invertida) en regex?]]
-- [[#9. Cómo buscar dígitos con \d]]
-- [[#10. Coincidencias con caracteres alfanuméricos (\w)]]
-- [[#11. Espacios en blanco en Python (\s)]]
-- [[#12. ** Validación de cadenas en Python**]]
-- [[#13. Validación del final de una cadena ($)]]
-- [[#14. Coincidencias con opciones (|)]]
-- [[#15. Cuantificadores en Regex]]
-- [[#16. Contando ocurrencias en Regex]]
-- [[#17. Sets y corchetes en Regex ([ ])]]
-- [[#18. Coincidencia negada ([^ ])]]
+- [[#4. Metacaracteres]]
+- [[#5. Flags]]
+- [[#6. Secuencias especiales]]
+- [[#7. Sets]]
+- [[#8. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`]]
+  - [[#8.1. group()]]
+  - [[#8.2. start()]]
+  - [[#8.3. end()]]
+  - [[#8.4. span()]]
+- [[#9. re.finditer(): Iterar sobre coincidencias]]
+- [[#10. Diferenciar entre mayúsculas y minúsculas]]
+- [[#11. Reemplazar texto con re.sub()]]
+- [[#12. Metacaracteres en Regex]]
+- [[#13. ¿Cómo usar \ (barra invertida) en regex?]]
+- [[#14. Cómo buscar dígitos con \d]]
+- [[#15. Coincidencias con caracteres alfanuméricos (\w)]]
+- [[#16. Espacios en blanco en Python (\s)]]
+- [[#17. Validación de cadenas en Python]]
+- [[#18. Validación del final de una cadena ($)]]
+- [[#19. Coincidencias con opciones (|)]]
+- [[#20. Cuantificadores en Regex]]
+- [[#21. Contando ocurrencias en Regex]]
+- [[#22. Sets y corchetes en Regex ([ ])]]
+- [[#23. Coincidencia negada ([^ ])]]
 <!--/INDICE-->
 
 
@@ -94,7 +98,7 @@ if resultado:
 
 ---
 
-# Metacaracteres
+# 4. Metacaracteres
 
 | **Metacarácter**                                     | **Significado breve**                                  | **Ejemplo**    | **Coincide con…**          |
 | ---------------------------------------------------- | ------------------------------------------------------ | -------------- | -------------------------- |
@@ -111,7 +115,7 @@ if resultado:
 | (?P<nom>…)                                           | Grupo con nombre                                       | (?P<dia>\d{2}) | Captura “dia”              |
 | \|Escapa metacaracter o introduce secuencia especial | \.                                                     | punto literal  |                            |
 
-# Flags
+# 5. Flags
 
 Puede añadir indicadores al patrón cuando utilice expresiones regulares.
 
@@ -126,7 +130,7 @@ Puede añadir indicadores al patrón cuando utilice expresiones regulares.
 | re.UNICODE    | re.U      | Returns Unicode matches. This is default from Python 3. For Python 2: use this flag to return only Unicode matches |
 | re.VERBOSE    | re.X      | Allows whitespaces and comments inside patterns. Makes the pattern more readable                                   |
 
-# Secuencias especiales
+# 6. Secuencias especiales
 
 Una secuencia especial es un \ seguido de uno de los caracteres de la lista siguiente, y tiene un significado especial:
 
@@ -141,7 +145,7 @@ Una secuencia especial es un \ seguido de uno de los caracteres de la lista sigu
 | (?<=pat)      | **Look‑behind** positivo             | (?<=USD)\d+                    |
 | (?<!pat)      | Look‑behind negativo                 | (?\<!USD)\d+                    |
 
-# Sets
+# 7. Sets
 
 Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un significado especial:
 
@@ -159,11 +163,12 @@ Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un
 | \S           | [^ \t\r\n\f\v]                       | no blanco                     |
 
 
-# 3.1. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`
+# 8. 📌 Métodos de `Match Object`
 
 Cuando usamos `re.search()` o `re.match()`, obtenemos un objeto `Match`. Este objeto nos permite obtener información detallada sobre la coincidencia encontrada.
 
-### 3.1.1. group()
+## 8.1. Coincidencia exacta encontrada
+
 Devuelve la coincidencia exacta encontrada en la búsqueda.
 
 ```python
@@ -178,18 +183,20 @@ if match:
     print(match.group())  # "4567"
 ```
 
-### 3.1.2. start()
+## 8.2. Posición donde comienza la coincidencia
 
 Devuelve la posición **donde comienza** la coincidencia en la cadena.
+
 ```python
 match = re.search(r"\d+", "Mi número es 4567")
 
 if match:
     print(match.start())  # 12
 ```
+
 En "Mi número es 4567", la primera coincidencia (4567) empieza en el índice 12 (contando desde 0).
 
-### 3.1.3. end()
+## 8.3. Posición donde termina la coincidencia
 
 Devuelve la posición **donde termina** la coincidencia (justo después del último carácter coincidente).
 
@@ -202,7 +209,7 @@ if match:
 
 La cadena "4567" termina en el índice 16 (excluyendo este índice).
 
-### 3.1.4. span()
+## 8.4. Rango donde se encuentra la conicidencia
 
 Devuelve una tupla (start, end), que indica el rango donde se encuentra la coincidencia.
 
@@ -216,10 +223,7 @@ if match:
 El número 4567 empieza en 12 y termina en 16.
 
 
-
-
-
-# 4. re.finditer(): Iterar sobre coincidencias
+# 9. Iterar sobre coincidencias
 
 Este método devuelve un iterador con todas las coincidencias en el texto.
 
@@ -245,7 +249,7 @@ for match in re.finditer(patron, texto):
 	Coincidencia: 456, Posición: (14, 17)
 	Coincidencia: 789, Posición: (20, 23)
   
-# 5. Diferenciar entre mayúsculas y minúsculas
+# 10. Diferenciar entre mayúsculas y minúsculas
 
   
 
@@ -259,9 +263,7 @@ coincidencias = re.findall(patron, texto, re.IGNORECASE)
 print(coincidencias)  # ['Hola', 'hola']
 ```
 
-# 6. Reemplazar texto con re.sub()
-
-  
+# 11. Reemplazar texto
 
 Usamos re.sub() para reemplazar coincidencias en un texto.
 
@@ -272,65 +274,9 @@ nuevo_texto = re.sub(r"color", "tono", texto)
 print(nuevo_texto)  # "El tono favorito es el tono azul"
 ```
 
-# 7. Metacaracteres en Regex
 
-Los metacaracteres son caracteres especiales en regex. Algunos de los más usados son:
-
-• . → Cualquier carácter excepto nueva línea.
-
-• ^ → Inicio de una cadena.
-
-• $ → Fin de una cadena.
-
-• * → Cero o más repeticiones.
-
-• + → Una o más repeticiones.
-
-• ? → Cero o una repetición.
-
-• {n} → Exactamente n repeticiones.
-
-• {n,m} → Entre n y m repeticiones.
-
-• \ → Escapa caracteres especiales.
-
-```python
-import re
-texto = "Hola 123"
-patron = r"\d+"  # Coincide con números
-
-print(re.findall(patron, texto))  # ['123']
-```
-
-# 8. ¿Cómo usar \ (barra invertida) en regex?
-
+# 14. Buscar dígitos
   
-
-La barra invertida \ tiene dos funciones:
-
-1. **Escapar metacaracteres**: Si queremos buscar un . en texto, usamos \. porque . es un metacarácter.
-
-2. **Usar secuencias especiales**:
-
-• \d → Dígitos (0-9)
-
-• \w → Caracteres alfanuméricos
-
-• \s → Espacios en blanco
-
-
-```python
-import re
-texto = "El precio es $100.50"
-patron = r"\$[\d\.]+"  # Busca un símbolo $ seguido de números y punto
-
-print(re.findall(patron, texto))  # ['$100.50']
-```
-
-# 9. Cómo buscar dígitos con \d
-
-  
-
 Para encontrar números en un texto:
 
 ```python
@@ -340,11 +286,7 @@ patron = r"\d+"  # Encuentra dígitos
 print(re.findall(patron, texto))  # ['3', '5']
 ```
 
-# 10. Coincidencias con caracteres alfanuméricos (\w)
-
-  
-
-Busca letras, números y guiones bajos.
+# 15. Busca letras, números y guiones bajos.
 
 ```python
 texto = "Python3_rocks!"
@@ -353,7 +295,7 @@ patron = r"\w+"  # Encuentra palabras alfanuméricas
 print(re.findall(patron, texto))  # ['Python3_rocks']
 ```
 
-# 11. Espacios en blanco en Python (\s)
+# 16. Espacios en blanco en Python (\s)
 
   
 
@@ -366,7 +308,7 @@ patron = r"\s"
 print(re.findall(patron, texto))  # ['\t', '\n']
 ```
 
-# 12. Validación de cadenas en Python
+# 17. Validación de cadenas en Python
 
   
 
@@ -379,7 +321,7 @@ patron = r"[A-Za-z]+\d+"  # Letras seguidas de números
 print(bool(re.fullmatch(patron, texto)))  # True
 ```
 
-# 13. Validación del final de una cadena ($)
+# 18. Validación del final de una cadena ($)
 
   
 
@@ -393,7 +335,7 @@ print(bool(re.search(patron, correo)))  # True
 ```
 
 
-# 14. Coincidencias con opciones (|)
+# 19. Coincidencias con opciones (|)
 
   
 
@@ -406,7 +348,7 @@ patron = r"Hola|Hello"
 print(re.findall(patron, texto))  # ['Hola', 'Hello']
 ```
 
-# 15. Cuantificadores en Regex
+# 20. Cuantificadores en Regex
 
 • * → Cero o más veces.
 
@@ -422,7 +364,7 @@ print(re.search(patron, texto))  # Coincide con "hellooooo"
 ```
 
 
-# 16. Contando ocurrencias en Regex
+# 21. Contando ocurrencias en Regex
 
 ```python
 texto = "python python python"
@@ -431,7 +373,7 @@ patron = r"python"
 print(len(re.findall(patron, texto)))  # 3
 ```
 
-# 17. Sets y corchetes en Regex ([ ])
+# 22. Sets y corchetes en Regex ([ ])
 
   
 
@@ -444,7 +386,7 @@ patron = r"[gp]ato"
 print(re.findall(patron, texto))  # ['gato', 'gato']
 ```
 
-# 18. Coincidencia negada ([^ ])
+# 23. Coincidencia negada ([^ ])
 
   
 
