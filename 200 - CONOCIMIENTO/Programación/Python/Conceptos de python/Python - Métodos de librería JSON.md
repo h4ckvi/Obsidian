@@ -97,7 +97,64 @@ print(y["age"])
 
 	30
 
-# Convertir de phton a JSON
+# Convertir de Pyhton a JSON
 
 Si tienes un objeto Python, puedes convertirlo en una cadena JSON utilizando el método json.dumps().
+
+```python
+import json  
+  
+# a Python object (dict):  
+x = {  
+  "name": "John",  
+  "age": 30,  
+  "city": "New York"  
+}  
+  
+# convert into JSON:  
+y = json.dumps(x)  
+  
+# the result is a JSON string:  
+print(y)
+```
+
+	{"name": "John", "age": 30, "city": "New York"}
+
+> [!NOTE] Puedes convertir objetos Python de los siguientes tipos, en cadenas JSON:
+> 
+> - dict
+> - list
+> - tuple
+> - string
+> - int
+> - float
+> - True
+> - False
+> - None
+
+```python
+# Convierte estos objetos de python en cadenas y printea los valores:
+
+import json  
+  
+print(json.dumps({"name": "John", "age": 30}))  
+print(json.dumps(["apple", "bananas"]))  
+print(json.dumps(("apple", "bananas")))  
+print(json.dumps("hello"))  
+print(json.dumps(42))  
+print(json.dumps(31.76))  
+print(json.dumps(True))  
+print(json.dumps(False))  
+print(json.dumps(None))
+```
+
+	{"name": "John", "age": 30}  
+	["apple", "bananas"]  
+	["apple", "bananas"]  
+	"hello"  
+	42  
+	31.76  
+	true  
+	false  
+	null
 

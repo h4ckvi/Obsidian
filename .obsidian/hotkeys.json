@@ -281,15 +281,6 @@
       "key": "`"
     }
   ],
-  "editing-toolbar:editor:insert-callout": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "C"
-    }
-  ],
   "editor:toggle-code": [
     {
       "modifiers": [
@@ -330,6 +321,15 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "editing-toolbar:editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }
