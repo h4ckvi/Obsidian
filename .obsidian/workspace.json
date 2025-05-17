@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
-                "mode": "source",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Métodos de librería JSON"
+              "title": "Python - Expresiones regulares (RegEx)"
             }
           }
         ],
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Métodos de librería JSON"
+              "title": "Esquema de Python - Expresiones regulares (RegEx)"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "cc29e16559edc487",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
@@ -297,7 +298,6 @@
     "500 - LISTAS/ideas para regalar a Olivia.md",
     "500 - LISTAS/caprichos.md",
     "500 - LISTAS",
-    "300 - PROYECTOS/LinkedIn/Posts/Tu segundo cerebro.md",
     "300 - PROYECTOS/LinkedIn/Posts",
     "300 - PROYECTOS/Youtube/Listado de vídeos",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",

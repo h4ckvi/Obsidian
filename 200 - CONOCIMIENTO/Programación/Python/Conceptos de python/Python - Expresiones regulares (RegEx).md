@@ -6,19 +6,14 @@ tags:
 categoria:
   - Manipulación de datos
 subcategoria: 
-nivel:
-  - principiante
+nivel: []
 ---
 
 # ¿Qué son las expresiones regulares?
 
-Las expresiones regulares (regex) son una herramienta poderosa para la manipulación de texto. Permiten buscar, extraer y modificar cadenas de texto de manera eficiente.
+Una RegEx, o Expresión Regular, es una secuencia de caracteres que forma un patrón de búsqueda.
 
----
-
-** ¿Qué son las Expresiones Regulares?**
-
-Las expresiones regulares son patrones utilizados para buscar combinaciones de caracteres en cadenas de texto. Se utilizan en la mayoría de los lenguajes de programación y en herramientas de búsqueda de texto avanzadas.
+RegEx puede utilizarse para comprobar si una cadena contiene el patrón de búsqueda especificado.
 
 En Python, las regex se manejan con el módulo `re`.
 
