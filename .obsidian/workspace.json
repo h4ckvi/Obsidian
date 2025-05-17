@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -212,8 +212,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "2d0128a6fcf85028",

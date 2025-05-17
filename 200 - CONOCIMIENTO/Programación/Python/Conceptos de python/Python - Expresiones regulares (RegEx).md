@@ -96,18 +96,20 @@ if resultado:
 
 # Metacaracteres
 
-| []  | A set of characters                                                        | "[a-m]"        |
-| --- | -------------------------------------------------------------------------- | -------------- |
-| \   | Signals a special sequence (can also be used to escape special characters) | "\d"           |
-| .   | Any character (except newline character)                                   | "he..o"        |
-| ^   | Starts with                                                                | "^hello"       |
-| $   | Ends with                                                                  | "planet$"      |
-| *   | Zero or more occurrences                                                   | "he.*o"        |
-| +   | One or more occurrences                                                    | "he.+o"        |
-| ?   | Zero or one occurrences                                                    | "he.?o"        |
-| {}  | Exactly the specified number of occurrences                                | "he.{2}o"      |
-| \|  | Either or                                                                  | "falls\|stays" |
-| ()  | Capture and group                                                          |                |
+| **Metacarácter**                                     | **Significado breve**                                  | **Ejemplo**    | **Coincide con…**          |
+| ---------------------------------------------------- | ------------------------------------------------------ | -------------- | -------------------------- |
+| .                                                    | Cualquier carácter salvo salto de línea                | a.c            | abc, a7c                   |
+| ^                                                    | Inicio de línea (o texto con re.M)                     | ^Hola          | Solo si empieza por “Hola” |
+| $                                                    | Fin de línea (o texto con re.M)                        | fin$           | Solo si termina en “fin”   |
+| *                                                    | 0 o más repeticiones                                   | ab*c           | ac, abc, abbbc             |
+| +                                                    | 1 o más repeticiones                                   | ab+c           | abc, abbbc                 |
+| ?                                                    | 0 o 1 repetición / cuantificador no‐codicioso (*?, +?) | colou?r        | color, colour              |
+| {m,n}                                                | Entre _m_ y _n_ repeticiones                           | \d{2,4}        | 2‑4 dígitos                |
+| []                                                   | **Set**: cualquiera de los caracteres dentro           | [aeiou]        | vocal minúscula            |
+| `|`                                                  | OR lógico                                              | `perro         |                            |
+| ()                                                   | Grupo y captura                                        | (ab)+          | “ab”, “abab”…              |
+| (?P<nom>…)                                           | Grupo con nombre                                       | (?P<dia>\d{2}) | Captura “dia”              |
+| \|Escapa metacaracter o introduce secuencia especial | \.                                                     | punto literal  |                            |
 
 # Flags
 
@@ -128,6 +130,19 @@ Puede añadir indicadores al patrón cuando utilice expresiones regulares.
 
 Una secuencia especial es un \ seguido de uno de los caracteres de la lista siguiente, y tiene un significado especial:
 
+| **Sintaxis** | **Significado**                      | **Coincide con…**             |
+| ------------ | ------------------------------------ | ----------------------------- |
+| [abc]        | a **o** b **o** c                    | cualquiera de esos caracteres |
+| [^abc]       | Cualquier carácter **salvo** a, b, c | exclusión                     |
+| [a-z]        | Rango                                | cualquier minúscula           |
+| [A-Za-z0-9_] | Múltiples rangos                     | letra o dígito o “_”          |
+| \d           | **Atajo** = [0-9]                    | dígito                        |
+| \D           | **Negado** = [^0-9]                  | no dígito                     |
+| \w           | [A-Za-z0-9_]                         | carácter “word”               |
+| \W           | [^A-Za-z0-9_]                        | no “word”                     |
+| \s           | [ \t\r\n\f\v]                        | espacio en blanco             |
+| \S           | [^ \t\r\n\f\v]                       | no blanco                     |
+
 | \A  | Returns a match if the specified characters are at the beginning of the string                                                                                                                               | "\AThe"                  |     |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | --- |
 | \b  | Returns a match where the specified characters are at the beginning or at the end of a word. (the "r" in the beginning is making sure that the string is being treated as a "raw string")                    | r\bain"<br/><br/>r"ain\b |     |
@@ -140,9 +155,24 @@ Una secuencia especial es un \ seguido de uno de los caracteres de la lista sigu
 | \W  | Returns a match where the string DOES NOT contain any word characters                                                                                                                                        | "\W"                     |     |
 | \Z  | Returns a match if the specified characters are at the end of the string                                                                                                                                     | "Spain\Z"                |     |
 
+# Sets
+
+Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un significado especial:
+
+| Set        | Description                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| [arn]      | Returns a match where one of the specified characters (a, r, or n) is present                                         |
+| [a-n]      | Returns a match for any lower case character, alphabetically between a and n                                          |
+| [^arn]     | Returns a match for any character EXCEPT a, r, and n                                                                  | 
+| [0123]     | Returns a match where any of the specified digits (0, 1, 2, or 3) are present                                         |
+| [0-9]      | Returns a match for any digit between 0 and 9                                                                         |
+| [0-5][0-9] | Returns a match for any two-digit numbers from 00 and 59                                                              |
+| [a-zA-Z]   | Returns a match for any character alphabetically between a and z, lower case OR upper case                            |
+| [+]        | In sets, +, *, ., \|, (), $,{} has no special meaning, so [+] means: return a match for any + character in the string |
 
 
-## 3.1. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`
+
+# 3.1. 📌 Métodos de `Match Object`: `start()`, `end()`, `group()`
 
 Cuando usamos `re.search()` o `re.match()`, obtenemos un objeto `Match`. Este objeto nos permite obtener información detallada sobre la coincidencia encontrada.
 
