@@ -8,9 +8,18 @@ subcategoria:
 nivel:
 ---
 
-JSON es una sintaxis para almacenar e intercambiar datos.
+> [!NOTE] ¿Qué es un JSON?
+> - JSON es una <u>sintaxis para almacenar e intercambiar datos</u>.
+> - JSON es texto, escrito con notación de objetos JavaScript.
+ 
 
-JSON es texto, escrito con notación de objetos JavaScript.
+Estos métodos se complementan entre sí:
+
+- dump() → Guarda JSON en un archivo.
+- dumps() → Convierte a JSON en forma de str.
+- load() → Carga JSON desde un archivo.
+- loads() → Carga JSON desde un str.
+
 
 # **json.dump()**
 
@@ -73,20 +82,22 @@ Si tienes una cadena JSON, puedes parsearla usando el método `json.loads().`
 
 El resultado será un [[Python - Listas, Tuplas, Diccionarios, conjuntos#5. Diccionarios|diccionario de python]] 
 
-• Similar a json.load(), pero en lugar de leer desde un archivo, **carga JSON desde una cadena**.
-
 ```python
-json_string = '{"nombre": "Álvaro", "edad": 27, "ciudad": "Madrid"}'
-data = json.loads(json_string)
-print(data)
+import json  
+  
+# some JSON:  
+x =  '{ "name":"John", "age":30, "city":"New York"}'  
+  
+# parse x:  
+y = json.loads(x)  
+  
+# the result is a Python dictionary:  
+print(y["age"])
 ```
 
-Estos métodos se complementan entre sí:
+	30
 
-• dump() → Guarda JSON en un archivo.
+# Convertir de phton a JSON
 
-• dumps() → Convierte a JSON en forma de str.
+Si tienes un objeto Python, puedes convertirlo en una cadena JSON utilizando el método json.dumps().
 
-• load() → Carga JSON desde un archivo.
-
-• loads() → Carga JSON desde un str.
