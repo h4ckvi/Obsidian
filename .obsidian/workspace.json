@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 386.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -211,7 +212,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "2d0128a6fcf85028",
