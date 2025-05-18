@@ -251,31 +251,31 @@ print(txt)
 
 Hay varios otros modificadores que se pueden utilizar para formatear valores:
 
-|Formatting Types|   |   |
-|---|---|---|
-|`:<`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier1)|Left aligns the result (within the available space)|
-|`:>`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier2)|Right aligns the result (within the available space)|
-|`:^`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier3)|Center aligns the result (within the available space)|
-|`:=`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier4)|Places the sign to the left most position|
-|`:+`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier5)|Use a plus sign to indicate if the result is positive or negative|
-|`:-`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier6)|Use a minus sign for negative values only|
-|`:`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier7)|Use a space to insert an extra space before positive numbers (and a minus sign before negative numbers)|
-|`:,`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier8)|Use a comma as a thousand separator|
-|`:_`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier9)|Use a underscore as a thousand separator|
-|`:b`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier10)|Binary format|
-|`:c`||Converts the value into the corresponding Unicode character|
-|`:d`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier12)|Decimal format|
-|`:e`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier13)|Scientific format, with a lower case e|
-|`:E`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier14)|Scientific format, with an upper case E|
-|`:f`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier15)|Fix point number format|
-|`:F`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier16)|Fix point number format, in uppercase format (show `inf` and `nan` as `INF` and `NAN`)|
-|`:g`||General format|
-|`:G`||General format (using a upper case E for scientific notations)|
-|`:o`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier19)|Octal format|
-|`:x`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier20)|Hex format, lower case|
-|`:X`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier21)|Hex format, upper case|
-|`:n`||Number format|
-|`:%`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier23)|Percentage format|
+|      |                                                                                                         |                                                                                           |
+| ---- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `:<` | Left aligns the result (within the available space)                                                     | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier1)  |
+| `:>` | Right aligns the result (within the available space)                                                    | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier2)  |
+| `:^` | Center aligns the result (within the available space)                                                   | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier3)  |
+| `:=` | Places the sign to the left most position                                                               | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier4)  |
+| `:+` | Use a plus sign to indicate if the result is positive or negative                                       | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier5)  |
+| `:-` | Use a minus sign for negative values only                                                               | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier6)  |
+| `:`  | Use a space to insert an extra space before positive numbers (and a minus sign before negative numbers) | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier7)  |
+| `:,` | Use a comma as a thousand separator                                                                     | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier8)  |
+| `:_` | Use a underscore as a thousand separator                                                                | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier9)  |
+| `:b` | Binary format                                                                                           | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier10) |
+| `:c` | Converts the value into the corresponding Unicode character                                             |                                                                                           |
+| `:d` | Decimal format                                                                                          | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier12) |
+| `:e` | Scientific format, with a lower case e                                                                  | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier13) |
+| `:E` | Scientific format, with an upper case E                                                                 | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier14) |
+| `:f` | Fix point number format                                                                                 | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier15) |
+| `:F` | Fix point number format, in uppercase format (show `inf` and `nan` as `INF` and `NAN`)                  | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier16) |
+| `:g` | General format                                                                                          |                                                                                           |
+| `:G` | General format (using a upper case E for scientific notations)                                          |                                                                                           |
+| `:o` | Octal format                                                                                            | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier19) |
+| `:x` | Hex format, lower case                                                                                  | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier20) |
+| `:X` | Hex format, upper case                                                                                  | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier21) |
+| `:n` | Number format                                                                                           |                                                                                           |
+| `:%` | Percentage format                                                                                       | [Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier23) |
 
 # Operaciones con F-Strings
 
