@@ -153,6 +153,12 @@ x = "hello"
 
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
+
+# También se puede escribir así:
+if type(x) is not int:
+
+# Y también, de forma más flexible y profesional: 
+if not isinstance(x, int):  # más flexible y profesional
 ```
 
 ```  
