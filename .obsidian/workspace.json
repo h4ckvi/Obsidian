@@ -55,8 +55,7 @@
               "title": "Python - Funciones creadas por el usuario"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Funciones creadas por el usuario"
+              "title": "Esquema de Gestor de tareas CLI"
             }
           },
           {
@@ -263,8 +262,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "553b231a0083ed1b",
+  "active": "17f2ad20cfa98144",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
@@ -290,7 +290,6 @@
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
     "conflict-files-obsidian-git.md",
     "HOME.md",
-    "Esto es una. nueva nota.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
