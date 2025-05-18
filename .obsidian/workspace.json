@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
-                "mode": "preview",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Entornos virtuales"
+              "title": "Gestor de tareas CLI"
             }
           }
         ]
@@ -105,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Métodos de strings (cadenas)"
+              "title": "Esquema de Gestor de tareas CLI"
             }
           },
           {
@@ -186,8 +186,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "2d0128a6fcf85028",
@@ -240,8 +239,14 @@
   },
   "active": "17f2ad20cfa98144",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios Regex.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curso (I).md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curos (II).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
@@ -260,17 +265,11 @@
     "conflict-files-obsidian-git.md",
     "HOME.md",
     "Esto es una. nueva nota.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
-    "200 - CONOCIMIENTO/Programación/MOC - Git y Github.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
     "Anexos/Recording 20250430082104.m4a",
     "Anexos",
-    "999 - PLANTILLAS/Prompts GPT/biografía.gpt.md",
-    "999 - PLANTILLAS/tp.youtube.md",
-    "999 - PLANTILLAS/tp.vocabulario_ingles.md",
-    "999 - PLANTILLAS/tp.programación_python.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
     "500 - LISTAS",
