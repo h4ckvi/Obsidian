@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
-                "mode": "preview",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Expresiones regulares (RegEx)"
+              "title": "Python - Excepciones (try-except)"
             }
           }
         ],
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Expresiones regulares (RegEx)"
+              "title": "Esquema de Python - Excepciones (try-except)"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "cc29e16559edc487",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",

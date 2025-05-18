@@ -13,8 +13,13 @@ Ver [[MOC correspondiente]]
 
 # Manejo de errores con `try-except`
 
-Si el usuario introduce un valor no numérico, el programa **fallará** con un error.  
-Podemos evitar esto usando `try-except` para manejar entradas inválidas:
+- El bloque try permite comprobar si hay errores en un bloque de código.
+
+- El bloque except permite gestionar el error.
+
+- El bloque else permite ejecutar código cuando no hay error.
+
+- El bloque finally permite ejecutar código, independientemente del resultado de los bloques try y except.
 
 Ejemplo: Validar entrada con try-except
 
