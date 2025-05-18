@@ -70,7 +70,32 @@ print(f"The square root of {x} is {y}")
 ```
 
 
+# Validar inputs
 
+Es una buena práctica validar cualquier entrada del usuario. En el ejemplo anterior, se producirá un error si el usuario introduce algo que no sea un número.
+
+Para evitar un error, podemos probar la entrada, y si no es un número, el usuario podría obtener un mensaje como "Entrada incorrecta, por favor inténtelo de nuevo", y se le permitió hacer una nueva entrada:
+
+```python
+y = True
+while y == True:
+  x = input("Enter a number:")
+  try:
+    x = float(x);
+    y = False
+  except:
+    print("Wrong input, please try again.")
+
+print("Thank you!")
+```
+
+```
+Enter a number:  asdf
+Wrong input, please try again.  
+
+Enter a number:  5
+Thank you!
+```
 
 
 

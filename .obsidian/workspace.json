@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Inputs (pedir datos al usuario)"
+              "title": "Python - Entornos virtuales"
             }
           }
         ]
@@ -241,8 +241,9 @@
   "active": "ec057d2569e3cb74",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-    "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
+    "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
@@ -270,7 +271,6 @@
     "999 - PLANTILLAS/tp.youtube.md",
     "999 - PLANTILLAS/tp.vocabulario_ingles.md",
     "999 - PLANTILLAS/tp.programación_python.md",
-    "999 - PLANTILLAS/tp.markdown.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
     "500 - LISTAS",
