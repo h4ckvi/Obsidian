@@ -49,4 +49,35 @@ Para utilizar el entorno virtual, tienes que activarlo con este comando:
 myfirstproject\Scripts\activate
 ```
 
+Después de la activación, su indicador cambiará para mostrar que ahora está trabajando en el entorno activo:
+
+La línea de comandos tendrá este aspecto cuando el entorno virtual esté activo:
+
+```
+(myfirstproject) C:\Users\_Your Name_>
+```
+
+# Instalar paquetes
+
+Una vez activado su entorno virtual, puede instalar paquetes en él, utilizando pip.
+
+# Desactivar un entorno virtual
+
+Se usa este comando:
+
+```
+(myfirstproject) C:\Users\_Your Name_> deactivate
+```
+
+Como resultado, ahora está de vuelta en la interfaz de línea de comandos normal:
+
+```
+C:\Users\_Your Name_>
+```
+
+Si intentas ejecutar un archivo .py fuera del entorno virtual, nos dará un error porque el módulo/módulos no los encuentra, solo están instalados en el entorno virtual
+
+
+> [!hey]+  El entorno virtual myfirstproject sigue existiendo, sólo que no está activado. 
+> Si vuelve a activar el entorno virtual, puede ejecutar el archivo test.py y se mostrará el diagrama.
 
