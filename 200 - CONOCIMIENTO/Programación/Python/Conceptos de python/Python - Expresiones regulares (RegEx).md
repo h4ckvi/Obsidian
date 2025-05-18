@@ -164,7 +164,13 @@ Un conjunto es un conjunto de caracteres dentro de un par de corchetes [] con un
 
 # 8. El objeto Match
 
-Cuando usamos `re.search()` o `re.match()`, obtenemos un objeto `Match`. Este objeto nos permite obtener información detallada sobre la coincidencia encontrada.
+Cuando usamos `re.search()` o `re.match()`, obtenemos un objeto `Match`. Un Match Object es un objeto que contiene información sobre la búsqueda y el resultado.
+
+El objeto Match tiene propiedades y métodos utilizados para obtener información sobre la búsqueda y el resultado:
+
+- `.span()` devuelve una tupla que contiene las posiciones inicial y final de la coincidencia.
+- `.string` devuelve la cadena introducida en la función
+- `.group()` devuelve la parte de la cadena en la que se ha encontrado una coincidencia.
 
 ## 8.1. Coincidencia exacta encontrada
 
