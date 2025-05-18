@@ -125,6 +125,43 @@ except:
 
 	El programa puede continuar, sin dejar abierto el objeto de archivo.
 
+# Provocar errores con raise
+
+La palabra clave `raise` se utiliza para lanzar una excepción.
+
+Puede definir el tipo de error que se producirá y el texto que se mostrará al usuario.
+
+```python
+# Genera un error y detiene el programa si x es menor que 0:
+x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
+```
+
+```
+Traceback (most recent call last):  
+  File "demo_ref_keyword_raise.py", line 4, in <module>  
+    raise Exception("Sorry, no numbers below zero")  
+Exception: Sorry, no numbers below zero
+```
+
+---
+
+```python
+x = "hello"
+
+if not type(x) is int:
+  raise TypeError("Only integers are allowed")
+```
+
+```  
+Traceback (most recent call last):  
+  File "demo_ref_keyword_raise2.py", line 4, in <module>  
+    raise TypeError("Only integers are allowed")  
+TypeError: Only integers are allowed
+```
+
 # La importancia de controlar los errores
 
 Es recomendable envolver el código en un bloque `try-except` para manejar posibles errores durante la petición. Esto previene que tu programa se rompa en caso de que la URL sea incorrecta o haya otros problemas:
