@@ -19,12 +19,13 @@ nivel: []
 - [[#4. Metacaracteres]]
 - [[#5. Flags]]
 - [[#6. Secuencias especiales]]
-- [[#7. Sets]]
-- [[#8. 📌 Métodos de `Match Object`]]
+- [[#7. Conjuntos de caracteres  (sets)]]
+- [[#8. El objeto Match]]
   - [[#8.1. Coincidencia exacta encontrada]]
   - [[#8.2. Posición donde comienza la coincidencia]]
   - [[#8.3. Posición donde termina la coincidencia]]
   - [[#8.4. Rango donde se encuentra la conicidencia]]
+  - [[#8.5. Devolver la cadena en la que se encuentra la coincidencia]]
 - [[#9. Algunos ejemplos:]]
   - [[#9.1. Iterar sobre coincidencias]]
   - [[#9.2. Diferenciar entre mayúsculas y minúsculas]]
@@ -172,38 +173,23 @@ El objeto Match tiene propiedades y métodos utilizados para obtener informació
 - `.string` devuelve la cadena introducida en la función
 - `.group()` devuelve la parte de la cadena en la que se ha encontrado una coincidencia.
 
-```python
+## 8.1. Coincidencia exacta encontrada
 
-# Imprime la posición (inicial y final) de la primera coincidencia.
-
-# La expresión regular busca cualquier palabra que empiece por "S" mayúscula:
-
-import re
-
-#Search for an upper case "S" character in the beginning of a word, and print its position:
-
-txt = "The rain in Spain"
-x = re.search(r"\bS\w+", txt)
-print(x.span())
-```
-
-	(12, 17)
-
----
+Devuelve la coincidencia exacta encontrada en la búsqueda.
 
 ```python
-# Imprime la cadena pasada a la función:
-
 import re
 
-txt = "La lluvia en España"
-x = re.search(r"\bS\w+", txt)
-print(x.string)
+texto = "Mi número es 4567"
+patron = r"\d+"
+
+match = re.search(patron, texto)
+
+if match:
+    print(match.group())
 ```
 
-	The rain in Spain
-
----
+	4567
 
 ```python
 # Imprime la parte de la cadena que tiene la coincidencia
@@ -219,23 +205,6 @@ print(x.group())
 
 	Spain
 
----
-
-## 8.1. Coincidencia exacta encontrada
-
-Devuelve la coincidencia exacta encontrada en la búsqueda.
-
-```python
-import re
-
-texto = "Mi número es 4567"
-patron = r"\d+"
-
-match = re.search(patron, texto)
-
-if match:
-    print(match.group())  # "4567"
-```
 
 ## 8.2. Posición donde comienza la coincidencia
 
@@ -248,7 +217,7 @@ if match:
     print(match.start())  # 12
 ```
 
-En "Mi número es 4567", la primera coincidencia (4567) empieza en el índice 12 (contando desde 0).
+	En "Mi número es 4567", la primera coincidencia (4567) empieza en el índice 12 (contando desde 0).
 
 ## 8.3. Posición donde termina la coincidencia
 
@@ -271,10 +240,42 @@ Devuelve una tupla (start, end), que indica el rango donde se encuentra la coinc
 match = re.search(r"\d+", "Mi número es 4567")
 
 if match:
-    print(match.span())  # (12, 16)
+    print(match.span())
 ```
 
-El número 4567 empieza en 12 y termina en 16.
+	(12, 16)
+
+```python
+
+# Imprime la posición (inicial y final) de la primera coincidencia.
+
+# La expresión regular busca cualquier palabra que empiece por "S" mayúscula:
+
+import re
+
+#Search for an upper case "S" character in the beginning of a word, and print its position:
+
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.span())
+```
+
+	(12, 17)
+
+## 8.5. Devolver la cadena en la que se encuentra la coincidencia
+
+```python
+# Imprime la cadena pasada a la función:
+
+import re
+
+txt = "La lluvia en España"
+x = re.search(r"\bS\w+", txt)
+print(x.string)
+```
+
+	The rain in Spain
+
 
 # 9. Algunos ejemplos:
 
