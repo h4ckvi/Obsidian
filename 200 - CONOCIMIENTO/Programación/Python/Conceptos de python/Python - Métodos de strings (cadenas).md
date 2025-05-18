@@ -224,3 +224,39 @@ Para poder ejecutar un método, debemos ponerle un punto justo después del obje
 
 # Formateo de cadenas en python
 
+Para formatear valores en una cadena f, añada marcadores de posición {}, un marcador de posición puede contener variables, operaciones, funciones y modificadores para formatear el valor.
+
+Un marcador de posición también puede incluir un modificador para dar formato al valor.
+
+Un modificador se incluye añadiendo dos puntos : seguido de un tipo de formato legal, como .2f que significa número de coma fija con 2 decimales:
+
+```python
+price = 59  
+txt = f"The price is {price:.2f} dollars"  
+print(txt)
+```
+
+```
+The price is 59.00 dollars
+```
+
+También puede formatear un valor directamente sin guardarlo en una variable: 
+
+```python
+txt = f"The price is {95:.2f} dollars"  
+print(txt)
+```
+
+# Operaciones con cadenas
+
+Puedes realizar operaciones Python dentro de los marcadores de posición.
+
+Puedes realizar operaciones matemáticas:
+
+```python
+txt = f"The price is {20 * 59} dollars"  
+print(txt)
+```
+
+
+
