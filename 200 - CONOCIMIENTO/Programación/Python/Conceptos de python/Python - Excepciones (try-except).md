@@ -11,7 +11,7 @@ nivel:
 Ver [[nota SILO correspondiente]]
 Ver [[MOC correspondiente]]
 
-# Manejo de errores con `try-except`
+# Manejo de errores en python
 
 - El bloque `try` permite comprobar si hay errores en un bloque de código.
 
@@ -20,6 +20,8 @@ Ver [[MOC correspondiente]]
 - El bloque `else` permite ejecutar código cuando no hay error.
 
 - El bloque `finally` permite ejecutar código, independientemente del resultado de los bloques try y except.
+
+## Bloques try y except
 
 Cuando se produce un error, o excepción como lo llamamos, Python normalmente se detendrá y generará un mensaje de error.
 
@@ -59,8 +61,6 @@ except:
 print(x)
 ```
 
-
-	Result Size: 1075 x 1242
 	#This will raise an exception, because x is not defined:
 	​
 	print(x)
@@ -70,7 +70,43 @@ print(x)
 	    print(x)
 	NameError: name 'x' is not defined
 
-# Importancia del Control de Errores
+## Bloque else
+
+`else` Se usa par definir un código personalizado si no se han encontrado errores.
+
+```python
+# En este ejemplo, try no genera ningún error
+
+try:  
+  print("Hello")  
+except:  
+  print("Something went wrong")  
+else:  
+  print("Nothing went wrong")
+```
+
+	Hello  
+	Nothing went wrong
+
+
+
+## Bloque finally
+
+El bloque finally, si se especifica, se ejecutará independientemente de si el bloque try genera un error o no.
+
+```python
+try:  
+  print(x)  
+except:  
+  print("Something went wrong")  
+finally:  
+  print("The 'try except' is finished")
+```
+
+	Something went wrong  
+	The 'try except' is finished
+
+# La importancia de controlar los errores
 
 Es recomendable envolver el código en un bloque `try-except` para manejar posibles errores durante la petición. Esto previene que tu programa se rompa en caso de que la URL sea incorrecta o haya otros problemas:
 
@@ -85,6 +121,7 @@ except urllib.error.URLError as e:
 	    print(f'Error en la URL: {e.reason}')
 ```
 
+# 
 
 
 # Tabla de excepciones (errores) en python
