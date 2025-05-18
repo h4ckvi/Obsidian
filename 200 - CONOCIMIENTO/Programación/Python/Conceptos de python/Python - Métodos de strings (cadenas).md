@@ -222,7 +222,7 @@ print(termina_con) # Devuelve false
 
 Para poder ejecutar un método, debemos ponerle un punto justo después del objeto. De la siguiente forma: `DATO.METODO()`
 
-# Formateo de cadenas en python
+# Formateo de cadenas en python (F-strings)
 
 Para formatear valores en una cadena f, añada marcadores de posición {}, un marcador de posición puede contener variables, operaciones, funciones y modificadores para formatear el valor.
 
@@ -247,7 +247,37 @@ txt = f"The price is {95:.2f} dollars"
 print(txt)
 ```
 
-# Operaciones con cadenas
+## Tabla de modificadores
+
+Hay varios otros modificadores que se pueden utilizar para formatear valores:
+
+|Formatting Types|   |   |
+|---|---|---|
+|`:<`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier1)|Left aligns the result (within the available space)|
+|`:>`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier2)|Right aligns the result (within the available space)|
+|`:^`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier3)|Center aligns the result (within the available space)|
+|`:=`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier4)|Places the sign to the left most position|
+|`:+`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier5)|Use a plus sign to indicate if the result is positive or negative|
+|`:-`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier6)|Use a minus sign for negative values only|
+|`:`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier7)|Use a space to insert an extra space before positive numbers (and a minus sign before negative numbers)|
+|`:,`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier8)|Use a comma as a thousand separator|
+|`:_`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier9)|Use a underscore as a thousand separator|
+|`:b`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier10)|Binary format|
+|`:c`||Converts the value into the corresponding Unicode character|
+|`:d`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier12)|Decimal format|
+|`:e`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier13)|Scientific format, with a lower case e|
+|`:E`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier14)|Scientific format, with an upper case E|
+|`:f`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier15)|Fix point number format|
+|`:F`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier16)|Fix point number format, in uppercase format (show `inf` and `nan` as `INF` and `NAN`)|
+|`:g`||General format|
+|`:G`||General format (using a upper case E for scientific notations)|
+|`:o`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier19)|Octal format|
+|`:x`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier20)|Hex format, lower case|
+|`:X`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier21)|Hex format, upper case|
+|`:n`||Number format|
+|`:%`|[Try it](https://www.w3schools.com/python/trypython.asp?filename=demo_fstring_modifier23)|Percentage format|
+
+# Operaciones con F-Strings
 
 Puedes realizar operaciones Python dentro de los marcadores de posición.
 
@@ -258,5 +288,46 @@ txt = f"The price is {20 * 59} dollars"
 print(txt)
 ```
 
+También se puede hacer con variables:
+
+```python
+price = 59  
+tax = 0.25  
+txt = f"The price is {price + (price * tax)} dollars"  
+print(txt)
+```
+
+Se pueden realizar condiciones `if...else` dentro de modificadores:
+
+```python
+# Devuelve "expensive" si el previo supera los 50, si no, devuelve "cheap"
+
+price = 49  
+txt = f"It is very {'Expensive' if price>50 else 'Cheap'}"  
+  
+print(txt)
+```
+
+# Ejecutar funciones en F-Strings
+
+```python
+fruit = "apples"  
+txt = f"I love {fruit.upper()}"  
+print(txt)
+```
+
+La función no tiene por qué ser un método incorporado en Python, puede crear sus propias funciones y utilizarlas:
+
+```python
+def myconverter(x):  
+  return x * 0.3048  
+  
+txt = f"The plane is flying at a {myconverter(30000)} meter altitude"  
+print(txt)
+```
+
+```
+The plane is flying at a 9144.0 meter altitude
+```
 
 

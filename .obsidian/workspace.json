@@ -186,7 +186,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "2d0128a6fcf85028",
@@ -237,7 +238,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc29e16559edc487",
+  "active": "09b17695eb0ba4bf",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
