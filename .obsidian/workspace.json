@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Gestor de tareas CLI"
             }
+          },
+          {
+            "id": "553b231a0083ed1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python - Funciones creadas por el usuario"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Gestor de tareas CLI"
+              "title": "Esquema de Python - Funciones creadas por el usuario"
             }
           },
           {
@@ -238,16 +263,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17f2ad20cfa98144",
+  "active": "553b231a0083ed1b",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios Regex.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curso (I).md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curos (II).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",

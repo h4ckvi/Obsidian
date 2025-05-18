@@ -35,17 +35,16 @@ subcategoria:
 
 Las funciones son bloques de código reutilizables que realizan tareas específicas. En Python, hay varios tipos de funciones.
 
-Los términos parámetro y argumento pueden ser usados para lo mismo: información que se pasa en la función.
+> [!NOTE] Los términos parámetro y argumento pueden ser usados para lo mismo: información que se pasa en la función.
 
-> [!NOTE] Nota:
-> Desde la perspectiva de una función:
+> [!NOTE]+ Desde la perspectiva de una función:
 > 
 > Un parámetro es la variable que aparece entre paréntesis en la definición de la función.
 > 
 > Un argumento es el valor que se envía a la función cuando se llama.
 > 
->> [!NOTE] Nota 2:
->> Por defecto, una función debe ser llamada con el número correcto de argumentos. Lo que significa que si tu función espera 2 argumentos, tienes que llamar a la función con 2 argumentos, ni más, ni menos.
+>> [!NOTE] Por defecto, una función debe ser llamada con el número correcto de argumentos. 
+>> Lo que significa que si tu función espera 2 argumentos, tienes que llamar a la función con 2 argumentos, ni más, ni menos.
 
 - Las funciones permiten reutilizar código y mejorar la organización del programa.
 - Se pueden definir funciones sin parámetros, con parámetros, y que retornen valores.

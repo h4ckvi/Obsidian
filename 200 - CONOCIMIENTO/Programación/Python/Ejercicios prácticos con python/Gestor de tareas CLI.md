@@ -43,6 +43,10 @@ gestor_tareas/
 2. Dentro, un archivo main.py.
     
 3. Otro archivo vacío llamado tareas.json, con esto dentro al principio:
+   
+	```
+	[]
+	```
 
 # 4. Paso 2: Pensar el modelo de datos
 
