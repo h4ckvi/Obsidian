@@ -78,6 +78,6 @@ C:\Users\_Your Name_>
 Si intentas ejecutar un archivo .py fuera del entorno virtual, nos dará un error porque el módulo/módulos no los encuentra, solo están instalados en el entorno virtual
 
 
-> [!hey]+  El entorno virtual myfirstproject sigue existiendo, sólo que no está activado. 
-> Si vuelve a activar el entorno virtual, puede ejecutar el archivo test.py y se mostrará el diagrama.
+> [!caution]+  El entorno virtual \<nombreproyecto> sigue existiendo, sólo que **no está activado**. 
+> Si vuelve a activar el entorno virtual, puede ejecutar el archivo .py y se mostrará el contenido.
 
