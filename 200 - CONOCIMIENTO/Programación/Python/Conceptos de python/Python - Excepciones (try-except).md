@@ -106,6 +106,25 @@ finally:
 	Something went wrong  
 	The 'try except' is finished
 
+Esto puede ser útil para cerrar objetos y limpiar recursos:
+
+```python
+# Intenta abrir y escribir en un archivo que no es escribible
+
+try:  
+  f = open("demofile.txt")  
+  try:  
+    f.write("Lorum Ipsum")  
+  except:  
+    print("Something went wrong when writing to the file")  
+  finally:  
+    f.close()  
+except:  
+  print("Something went wrong when opening the file")
+```
+
+	El programa puede continuar, sin dejar abierto el objeto de archivo.
+
 # La importancia de controlar los errores
 
 Es recomendable envolver el código en un bloque `try-except` para manejar posibles errores durante la petición. Esto previene que tu programa se rompa en caso de que la URL sea incorrecta o haya otros problemas:
