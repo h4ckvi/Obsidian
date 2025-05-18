@@ -172,6 +172,55 @@ El objeto Match tiene propiedades y métodos utilizados para obtener informació
 - `.string` devuelve la cadena introducida en la función
 - `.group()` devuelve la parte de la cadena en la que se ha encontrado una coincidencia.
 
+```python
+
+# Imprime la posición (inicial y final) de la primera coincidencia.
+
+# La expresión regular busca cualquier palabra que empiece por "S" mayúscula:
+
+import re
+
+#Search for an upper case "S" character in the beginning of a word, and print its position:
+
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.span())
+```
+
+	(12, 17)
+
+---
+
+```python
+# Imprime la cadena pasada a la función:
+
+import re
+
+txt = "La lluvia en España"
+x = re.search(r"\bS\w+", txt)
+print(x.string)
+```
+
+	The rain in Spain
+
+---
+
+```python
+# Imprime la parte de la cadena que tiene la coincidencia
+# La Regex busca cualquier palabra que empiece por "S" mayúscula:
+
+
+import re  
+  
+txt = "The rain in Spain"  
+x = re.search(r"\bS\w+", txt)  
+print(x.group())
+```
+
+	Spain
+
+---
+
 ## 8.1. Coincidencia exacta encontrada
 
 Devuelve la coincidencia exacta encontrada en la búsqueda.
