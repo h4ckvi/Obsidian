@@ -7,7 +7,7 @@ categoria:
 subcategoria:
 ---
 
-> [!hey] All string methods return new values. They do not change the original string.
+> [!hey] Todos los métodos de cadenas devuelven nuevos valores, no modifican el original.
 
 Con la función `DIR` podemos ver una lista de todos los atributos válidos para el objeto que estamos pasando:
 
@@ -221,4 +221,6 @@ print(termina_con) # Devuelve false
 
 
 Para poder ejecutar un método, debemos ponerle un punto justo después del objeto. De la siguiente forma: `DATO.METODO()`
+
+# Formateo de cadenas en python
 
