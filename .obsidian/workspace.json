@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "553b231a0083ed1b",
+            "id": "e4f8991edbee455a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Funciones creadas por el usuario"
+              "title": "Python - While loop"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5,
-    "collapsed": true
+    "width": 386.5
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Gestor de tareas CLI"
+              "title": "Esquema de Python - While loop"
             }
           },
           {
@@ -262,11 +262,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17f2ad20cfa98144",
+  "active": "e4f8991edbee455a",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios Regex.md",
