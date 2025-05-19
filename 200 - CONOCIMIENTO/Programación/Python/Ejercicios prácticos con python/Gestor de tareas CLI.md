@@ -76,6 +76,8 @@ def mostrar_menu():
 
 Y luego algo así:
 
+Se ejecuta indefinidamente **porque la condición siempre es True**, por lo tanto, **es ideal para menús interactivos** donde el usuario puede elegir una opción, realizar una acción, y luego volver al menú.
+
 ```python
 while True:
     mostrar_menu()
