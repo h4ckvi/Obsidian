@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - While loop"
+              "title": "Python - Métodos de librería JSON"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Gestor de tareas CLI"
+              "title": "Esquema de Python - Métodos de librería JSON"
             }
           },
           {
@@ -261,10 +262,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17f2ad20cfa98144",
+  "active": "e4f8991edbee455a",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
