@@ -37,7 +37,7 @@ Estos métodos se complementan entre sí:
 
 # 1. json.dump()
 
-json.dump() es un método de la librería estándar json de Python que **convierte un objeto de Python en JSON y lo escribe en un archivo**. Se usa cuando necesitas almacenar datos estructurados en formato JSON en un archivo.
+json.dump() es un método de la librería estándar JSON de Python que **convierte un objeto de Python en JSON y lo escribe en un archivo**. Se usa cuando necesitas almacenar datos estructurados en formato JSON en un archivo.
 
 ```python
 import json
@@ -81,7 +81,7 @@ print(json_string)
 
 # 3. Cargar un JSON desde un archivo y convertirlo a objeto
 
-• **Carga** un JSON desde un archivo y lo convierte en un objeto de Python.
+Carga un JSON desde un archivo y lo convierte en un objeto de Python.
 
 ```python
 with open("datos.json", "r") as archivo:

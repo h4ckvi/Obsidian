@@ -8,6 +8,32 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d7739bf5d1ddaf11",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "000 - Conceptos de python"
+            }
+          },
+          {
             "id": "17f2ad20cfa98144",
             "type": "leaf",
             "state": {
@@ -55,8 +81,7 @@
               "title": "Python - Métodos de librería JSON"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 386.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -130,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Métodos de librería JSON"
+              "title": "Esquema de 000 - Conceptos de python"
             }
           },
           {
@@ -262,8 +288,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4f8991edbee455a",
+  "active": "d7739bf5d1ddaf11",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
@@ -281,7 +308,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
     "999 - PLANTILLAS/tp.notas_diarias.md",
