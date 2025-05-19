@@ -21,7 +21,7 @@ La estructura básica de un bucle **`while`** se muestra a continuación:
  ```
  
  
- - `<instrucción(es)>` representa el bloque que se ejecutará repetidamente, a menudo llamado el cuerpo del bucle. Este bloque está indentado, al igual que en una sentencia **`if`.
+ - `<instrucción(es)>` representa el bloque que se ejecutará repetidamente, a menudo llamado el cuerpo del bucle. Este bloque está indentado, al igual que en una sentencia `if`.
 - Recuerda: Todas las estructuras de control en Python utilizan la indentación para definir bloques.
  
 ## 1.1 Bucles anidados
