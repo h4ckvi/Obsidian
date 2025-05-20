@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Python - Métodos de librería JSON"
             }
+          },
+          {
+            "id": "0afdbe621f117d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python - Excepciones (try-except)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"paginas\"]",
+                "query": "except",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,11 +109,13 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 396.50400161743164
+    "width": 396.50400161743164,
+    "collapsed": true
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -105,13 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Métodos de librería JSON"
+              "title": "Esquema de Python - Excepciones (try-except)"
             }
           },
           {
@@ -208,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,8 +254,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "431b9b49fb782556",
+  "active": "0afdbe621f117d1d",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
     "Sin título.md",
@@ -259,7 +287,6 @@
     "999 - PLANTILLAS/tp.linkedin.md",
     "999 - PLANTILLAS/tp.libros.md",
     "999 - PLANTILLAS/tp.inglés.md",
-    "999 - PLANTILLAS/tp.generar_indice.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
     "500 - LISTAS",
