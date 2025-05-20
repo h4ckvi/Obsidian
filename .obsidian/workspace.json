@@ -54,9 +54,47 @@
               "icon": "lucide-file",
               "title": "Python - Excepciones (try-except)"
             }
+          },
+          {
+            "id": "c8ae450b944fb2d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python - Librería OS"
+            }
+          },
+          {
+            "id": "29b57d0fb099160a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.w3schools.com/python/module_os.asp",
+                "title": "Python os Module",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Python os Module"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,8 +147,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,13 +169,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Excepciones (try-except)"
+              "title": "Esquema"
             }
           },
           {
@@ -254,11 +290,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0afdbe621f117d1d",
+  "active": "29b57d0fb099160a",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
@@ -286,7 +323,6 @@
     "999 - PLANTILLAS/tp.markdown.md",
     "999 - PLANTILLAS/tp.linkedin.md",
     "999 - PLANTILLAS/tp.libros.md",
-    "999 - PLANTILLAS/tp.inglés.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
     "500 - LISTAS",
