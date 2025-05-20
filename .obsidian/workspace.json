@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,12 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Python - Excepciones (try-except)"
             }
           },
           {
@@ -290,11 +291,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29b57d0fb099160a",
+  "active": "0afdbe621f117d1d",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
