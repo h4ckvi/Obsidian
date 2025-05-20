@@ -4,11 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "b928cafa32ac3a78",
+        "id": "98ece643123a9dc4",
         "type": "tabs",
         "children": [
           {
-            "id": "431b9b49fb782556",
+            "id": "d7739bf5d1ddaf11",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "000 - Conceptos de python"
+            }
+          },
+          {
+            "id": "17f2ad20cfa98144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gestor de tareas CLI"
+            }
+          },
+          {
+            "id": "e4f8991edbee455a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +82,12 @@
             }
           },
           {
-            "id": "0afdbe621f117d1d",
+            "id": "fc15d760409dda30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,35 +102,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Excepciones (try-except)"
+              "title": "Python - Manejo de archivos"
             }
           },
           {
-            "id": "c8ae450b944fb2d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Python - Librería OS"
-            }
-          },
-          {
-            "id": "29b57d0fb099160a",
+            "id": "9136cf7b0ffa146d",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -126,10 +152,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "except",
+                "query": "with open",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -151,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.50400161743164,
+    "width": 364.5,
     "collapsed": true
   },
   "right": {
@@ -169,12 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Python - Manejo de archivos"
             }
           },
           {
@@ -202,12 +229,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 000 - Conceptos de python"
+              "title": "Enlaces salientes de Python - Fechas y tiempos (datetime)"
             }
           },
           {
@@ -237,6 +264,16 @@
               },
               "icon": "lucide-archive",
               "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "09b17695eb0ba4bf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ]
@@ -271,7 +308,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 339.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,39 +327,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29b57d0fb099160a",
+  "active": "fc15d760409dda30",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería \"os\".md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
-    "Sin título.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería pytest.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - While loop.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios Regex.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curso (I).md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curos (II).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
-    "200 - CONOCIMIENTO/Programación/MOC - Learning python.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Operadores.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
+    "Sin título.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
-    "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
-    "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
-    "conflict-files-obsidian-git.md",
-    "HOME.md",
-    "Esto es una. nueva nota.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
-    "200 - CONOCIMIENTO/Programación/MOC - Git y Github.md",
+    "999 - PLANTILLAS/tp.notas_diarias.md",
+    "999 - PLANTILLAS/tp.procesar.md",
+    "999 - PLANTILLAS/tp.inglés.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
     "Anexos/Recording 20250430082104.m4a",
     "Anexos",
-    "999 - PLANTILLAS/Prompts GPT/biografía.gpt.md",
-    "999 - PLANTILLAS/tp.youtube.md",
-    "999 - PLANTILLAS/tp.vocabulario_ingles.md",
-    "999 - PLANTILLAS/tp.programación_python.md",
-    "999 - PLANTILLAS/tp.procesar.md",
-    "999 - PLANTILLAS/tp.notas_diarias.md",
-    "999 - PLANTILLAS/tp.markdown.md",
-    "999 - PLANTILLAS/tp.linkedin.md",
-    "999 - PLANTILLAS/tp.libros.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
     "500 - LISTAS",
