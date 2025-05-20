@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Librería OS"
+              "title": "Python - Métodos de librería JSON"
             }
           }
         ]
@@ -105,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Librería OS"
+              "title": "Esquema de Python - Métodos de librería JSON"
             }
           },
           {
@@ -230,6 +230,7 @@
   "active": "431b9b49fb782556",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
@@ -261,7 +262,6 @@
     "999 - PLANTILLAS/tp.generar_indice.md",
     "999 - PLANTILLAS/Prompts GPT",
     "999 - PLANTILLAS",
-    "500 - LISTAS/necesidades.md",
     "500 - LISTAS",
     "300 - PROYECTOS/LinkedIn/Posts",
     "300 - PROYECTOS/Youtube/Listado de vídeos",

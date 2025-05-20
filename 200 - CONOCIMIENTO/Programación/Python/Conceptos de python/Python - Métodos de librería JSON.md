@@ -11,14 +11,15 @@ nivel:
 <!--INDICE-->
 # Índice
 
-- [[#1. **json.dump()**]]
-- [[#2. **json.dumps()**]]
-- [[#3. Cargar un JSON desde un archivo y convertirlo a objeto]]
-- [[#4. Convertir de JSON a Python]]
-- [[#5. Convertir de Pyhton a JSON]]
-- [[#6. Tabla de equivalencias de objetos entre Python y JSON]]
-- [[#7. Formatear el resultado de un JSON para mejor legibilidad]]
-- [[#8. Ordenar el resultado]]
+- [[#1. Índice]]
+- [[#2. json.dump()]]
+- [[#3. json.dumps()]]
+- [[#4. Cargar un JSON desde un archivo y convertirlo a objeto]]
+- [[#5. Convertir de JSON a Python]]
+- [[#6. Convertir de Pyhton a JSON]]
+- [[#7. Tabla de equivalencias de objetos entre Python y JSON]]
+- [[#8. Formatear el resultado de un JSON para mejor legibilidad]]
+- [[#9. Ordenar el resultado]]
 <!--/INDICE-->
 
 
@@ -35,7 +36,7 @@ Estos métodos se complementan entre sí:
 - loads() → Carga JSON desde un str.
 
 
-# 1. json.dump()
+# 2. json.dump()
 
 json.dump() es un método de la librería estándar JSON de Python que **convierte un objeto de Python en JSON y lo escribe en un archivo**. Se usa cuando necesitas almacenar datos estructurados en formato JSON en un archivo.
 
@@ -70,7 +71,7 @@ with open("datos.json", "w") as archivo:
 ```
   
 
-# 2. json.dumps()
+# 3. json.dumps()
 
 • Similar a json.dump(), pero en lugar de escribir en un archivo, **retorna el JSON como una cadena (str)**.
 
@@ -79,7 +80,7 @@ json_string = json.dumps(data, indent=4)
 print(json_string)
 ```
 
-# 3. Cargar un JSON desde un archivo y convertirlo a objeto
+# 4. Cargar un JSON desde un archivo y convertirlo a objeto
 
 Carga un JSON desde un archivo y lo convierte en un objeto de Python.
 
@@ -90,7 +91,7 @@ with open("datos.json", "r") as archivo:
 print(data_cargada)
 ```
 
-# 4. Convertir de JSON a Python
+# 5. Convertir de JSON a Python
 
 Si tienes una cadena JSON, puedes parsearla usando el método `json.loads().`
 
@@ -111,7 +112,7 @@ print(y["age"])
 
 	30
 
-# 5. Convertir de Pyhton a JSON
+# 6. Convertir de Pyhton a JSON
 
 Si tienes un objeto Python, puedes convertirlo en una cadena JSON utilizando el método json.dumps().
 
@@ -172,7 +173,7 @@ print(json.dumps(None))
 	false  
 	null
 
-# 6. Tabla de equivalencias de objetos entre Python y JSON
+# 7. Tabla de equivalencias de objetos entre Python y JSON
 
 Al convertir de Python a JSON, los objetos Python se convierten en su equivalente JSON (JavaScript):
 
@@ -211,7 +212,7 @@ print(json.dumps(x))
 
 	{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
 
-# 7. Formatear el resultado de un JSON para mejor legibilidad
+# 8. Formatear el resultado de un JSON para mejor legibilidad
 
 El ejemplo anterior imprime una cadena JSON, pero no es muy fácil de leer, sin sangrías ni saltos de línea.
 
@@ -306,7 +307,7 @@ print(json.dumps(x, indent=4, separators=(". ", " = ")))
 	    ]  
 	}
 
-# 8. Ordenar el resultado
+# 9. Ordenar el resultado
 
 `json.dumps()` tiene parámetros para ordenar las claves del resultado. Con el parámetro `short_keys()` se puede especificar el resultado ordenado:
 
