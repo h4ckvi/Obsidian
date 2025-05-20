@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "000 - Conceptos de python"
+              "title": "Python - Librería OS"
             }
           }
         ]
@@ -105,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 000 - Conceptos de python"
+              "title": "Esquema de Python - Librería OS"
             }
           },
           {
@@ -227,14 +227,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3392210d83ba8326",
+  "active": "431b9b49fb782556",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "Sin título.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
     "200 - CONOCIMIENTO/Programación/MOC - Learning python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Operadores.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/Git cheatsheet.md",
     "200 - CONOCIMIENTO/Programación/Git y Github/MOC - Git y Github.md",
