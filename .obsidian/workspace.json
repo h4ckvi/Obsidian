@@ -85,9 +85,23 @@
             "id": "fc15d760409dda30",
             "type": "leaf",
             "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "76aee41c011ccde0",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -102,7 +116,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Manejo de archivos"
+              "title": "conflict-files-obsidian-git"
             }
           },
           {
@@ -195,13 +209,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Manejo de archivos"
+              "title": "Esquema"
             }
           },
           {
@@ -329,6 +342,8 @@
   },
   "active": "fc15d760409dda30",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
+    "conflict-files-obsidian-git.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería \"os\".md",
@@ -353,8 +368,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
     "999 - PLANTILLAS/tp.notas_diarias.md",
-    "999 - PLANTILLAS/tp.procesar.md",
-    "999 - PLANTILLAS/tp.inglés.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
