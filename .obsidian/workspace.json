@@ -128,9 +128,33 @@
               "icon": "lucide-file",
               "title": "Python - Scope"
             }
+          },
+          {
+            "id": "7eab15a572578cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python - Listas, Tuplas, Diccionarios, conjuntos"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -205,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - For loop"
+              "title": "Esquema de Python - Listas, Tuplas, Diccionarios, conjuntos"
             }
           },
           {
@@ -337,14 +361,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1aa1966e92ac4415",
+  "active": "7eab15a572578cd2",
   "lastOpenFiles": [
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
     "conflict-files-obsidian-git.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
