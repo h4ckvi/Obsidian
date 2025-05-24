@@ -82,20 +82,6 @@
             }
           },
           {
-            "id": "fc15d760409dda30",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
             "id": "9136cf7b0ffa146d",
             "type": "leaf",
             "state": {
@@ -110,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -315,7 +302,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc15d760409dda30",
+  "active": "3392210d83ba8326",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
     "conflict-files-obsidian-git.md",
