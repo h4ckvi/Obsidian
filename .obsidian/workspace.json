@@ -135,7 +135,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -150,7 +150,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Listas, Tuplas, Diccionarios, conjuntos"
+              "title": "Python - Tipos de datos"
             }
           }
         ],
@@ -186,7 +186,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "variables globa",
+                "query": "isinstance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -229,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Listas, Tuplas, Diccionarios, conjuntos"
+              "title": "Esquema de Python - Tipos de datos"
             }
           },
           {
@@ -363,6 +363,7 @@
   },
   "active": "7eab15a572578cd2",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
@@ -388,7 +389,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Fechas y tiempos (datetime).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Math.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
