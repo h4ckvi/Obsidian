@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
-                "mode": "preview",
+                "file": "000 - DIARIO/25 mayo 2025.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,11 +54,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Métodos de librería JSON"
+              "title": "25 mayo 2025"
+            }
+          },
+          {
+            "id": "d59becfe3e9eecd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gestor de tareas CLI"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,12 +135,11 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 443.5
   },
   "right": {
     "id": "ef2bdf1e7f733ee0",
@@ -133,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Métodos de librería JSON"
+              "title": "Esquema de Gestor de tareas CLI"
             }
           },
           {
@@ -241,8 +264,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -265,8 +287,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39eb24696c73bb95",
+  "active": "d59becfe3e9eecd0",
   "lastOpenFiles": [
+    "000 - DIARIO/25 mayo 2025.md",
+    "999 - PLANTILLAS/tp.notas_diarias.md",
+    "999 - PLANTILLAS/<%fileDate = moment(tp.file.title, 'DD MMMM YYYY').subtract(1,'d').format('DD MMMM YYYY')%>.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
+    "000 - DIARIO",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
@@ -274,7 +301,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
@@ -290,9 +316,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curso (I).md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curos (II).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Entornos virtuales.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Inputs (pedir datos al usuario).md",
-    "Sin título.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Casting, Transformación de tipos en python.md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
@@ -302,7 +325,6 @@
     "999 - PLANTILLAS",
     "500 - LISTAS",
     "300 - PROYECTOS/LinkedIn/Posts",
-    "300 - PROYECTOS/Youtube/Listado de vídeos",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20231121224010.png",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20230818163217.png",
     "200 - CONOCIMIENTO/Lectura/Libros/Anexos/Pasted image 20230818163052.png",
