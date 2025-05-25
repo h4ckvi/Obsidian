@@ -12,8 +12,8 @@ nivel:
 # Índice
 
 - [[#1. Índice]]
-- [[#2. json.dump()]]
-- [[#3. json.dumps()]]
+- [[#2.  Convertir objeto de python en JSON y escribirlo en un archivo .json]]
+- [[#3. Retornar el JSON en una cadera]]
 - [[#4. Cargar un JSON desde un archivo y convertirlo a objeto]]
 - [[#5. Convertir de JSON a Python]]
 - [[#6. Convertir de Pyhton a JSON]]
@@ -36,7 +36,7 @@ Estos métodos se complementan entre sí:
 - loads() → Carga JSON desde un str.
 
 
-# 2. json.dump()
+# 2.  Convertir objeto de python en JSON y escribirlo en un archivo .json
 
 json.dump() es un método de la librería estándar JSON de Python que **convierte un objeto de Python en JSON y lo escribe en un archivo**. Se usa cuando necesitas almacenar datos estructurados en formato JSON en un archivo.
 
@@ -71,7 +71,7 @@ with open("datos.json", "w") as archivo:
 ```
   
 
-# 3. json.dumps()
+# 3. Retornar el JSON en una cadera
 
 • Similar a json.dump(), pero en lugar de escribir en un archivo, **retorna el JSON como una cadena (str)**.
 
