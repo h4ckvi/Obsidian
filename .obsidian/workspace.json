@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "isinstance",
+                "query": ".strip()",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -264,7 +264,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa5c1fe79ef4182a",
+  "active": "ebfe949483c60903",
   "lastOpenFiles": [
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
