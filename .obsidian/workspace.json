@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python - Tipos de datos"
+              "title": "Python - Métodos de strings (cadenas)"
             }
           }
         ],
@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".strip()",
+                "query": "strip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
+                "file": "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Python - Tipos de datos"
+              "title": "Esquema de Python - Métodos de strings (cadenas)"
             }
           },
           {
@@ -264,8 +264,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebfe949483c60903",
+  "active": "fa5c1fe79ef4182a",
   "lastOpenFiles": [
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Expresiones regulares (RegEx).md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Peticiones a APIs.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "000 - DIARIO/25 mayo 2025.md",
@@ -281,7 +284,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Listas, Tuplas, Diccionarios, conjuntos.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Funciones creadas por el usuario.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
     "conflict-files-obsidian-git.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",
@@ -291,8 +293,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/000 - Ejercicios prácticos con python.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios con diccionarios.md",
     "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios Regex.md",
-    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curso (I).md",
-    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Ejercicios del curos (II).md",
     "Anexos/git-cheat-sheet-education.pdf",
     "Anexos/git-cheat-sheet-education 2.pdf",
     "Anexos/Recording 20250430082105.m4a",
