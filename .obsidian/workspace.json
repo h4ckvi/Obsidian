@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "000 - DIARIO/25 mayo 2025.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "file": "000 - DIARIO/25 mayo 2025.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gestor de tareas CLI"
+              "title": "25 mayo 2025"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
+                "file": "000 - DIARIO/25 mayo 2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Gestor de tareas CLI"
+              "title": "Esquema de 25 mayo 2025"
             }
           },
           {
@@ -264,7 +264,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -287,14 +288,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d59becfe3e9eecd0",
+  "active": "3392210d83ba8326",
   "lastOpenFiles": [
-    "000 - DIARIO/25 mayo 2025.md",
+    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "999 - PLANTILLAS/tp.notas_diarias.md",
+    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
+    "000 - DIARIO/25 mayo 2025.md",
     "999 - PLANTILLAS/<%fileDate = moment(tp.file.title, 'DD MMMM YYYY').subtract(1,'d').format('DD MMMM YYYY')%>.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de librería JSON.md",
     "000 - DIARIO",
-    "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/000 - Conceptos de python.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - For loop.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de strings (cadenas).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Métodos de listas.md",
@@ -303,7 +305,6 @@
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Scope.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Excepciones (try-except).md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Tipos de datos.md",
-    "200 - CONOCIMIENTO/Programación/Python/Ejercicios prácticos con python/Gestor de tareas CLI.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Manejo de archivos.md",
     "conflict-files-obsidian-git.md",
     "200 - CONOCIMIENTO/Programación/Python/Conceptos de python/Python - Librería OS.md",

@@ -34,3 +34,4 @@ gestor_tareas/
 ├── main.py
 ├── tareas.json         ← Aquí se guardarán las tareas
 ```
+
